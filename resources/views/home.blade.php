@@ -47,13 +47,14 @@
     {{-- menu3 section  --}}
     <section class="menu3 Section" id="menu3">
         <div class="menu3Container container grid">
-            <div class="sec1 grid show-animate">
-                <section class="menu3Data">
+            <div class="sec1 grid col show-animate">
+                <div class="menu3Data ">
                     <h1 class="animate">Lorem, ipsum dolor.</h1>
                     <p class="animate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
-                </section>
+                    <button class="btn">Lorem ipsum</button>
+                </div>
                 <div class="menu3Img">
                     <img src="assets\InstagramPost3D.png" alt="" width="300px">
                 </div>
@@ -67,7 +68,8 @@
                     <p class="animate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
-                </div>
+                    <button class="btn">Lorem ipsum</button>
+                </div>                
             </div>
             <div class="sec3 grid col">
                 <div class="menu3Data">
@@ -75,6 +77,7 @@
                     <p class="animate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
+                    <button class="btn">Lorem ipsum</button>    
                 </div>
                 <div class="menu3Img">
                     <img src="assets\Asset17@300x.png" alt="" width="300px">
@@ -83,19 +86,25 @@
          </div>
     </section>
 
-    {{-- menu4 section  --}}
+    {{-- Contact section  --}}
     <section class="contact Section" id="contact">
-        <div class="menu4Container container grid">            
-            <img class="img-fluid container-fluid" src="assets\Asset18@300x.png" alt="Responsive image" >
-            {{-- <form name="submit-to-google-sheet" action="" class="contactForm" id="contactForm">
-                <div class="contactGroup">
-                    <input type="name" name="username" required placeholder="Input Your Name" class="contactInput">
-                    <input type="subject" name="usersubject" required placeholder="Input Your Name" class="contactInput">
-                    <input type="email" name="userEmail" required placeholder="Input Your Email" class="contactInput">
+        <div class="menu4Container">            
+            <img class="img-fluid" src="assets\Asset18@300x.png" alt="Responsive image" >
+            <div class="contactInnerBoard row">
+                <div class="contactData col">                    
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repudiandae ad quaerat magnam. 
+                        Harum ab accusamus voluptatum dolores, eos quaerat.</p>
                 </div>
-                <!-- <p class="contact_message" id="contact_message">Message</p> -->
-                <button class="btn contact_btn" type="submit">Send Message</button>
-            </form> --}}
+                <div class="contactInput col">
+                    <form name="submit-to-google-sheet" action="" class="contactForm" id="contactForm">
+                        <input type="text" id="name" name="name" placeholder="Name">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                        <input type="text" id="email" name="email" placeholder="Email">
+                        <input class="submit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 @endsection

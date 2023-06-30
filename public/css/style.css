@@ -4,6 +4,7 @@
     --white-grey: #f5f6f7;    
     --yelow-light: #fcf9be;
     --golden:#FFD700;
+    --blue-light: #0071BC;
 }
 
 *{
@@ -68,6 +69,16 @@ a.nav-link:hover {
     gap: 1.5rem;
 }
 
+.btn{
+    width: 35%;
+    background-color: var(--blue-light);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
 
 /* animation transition */
 @keyframes slideFromTop {
@@ -160,24 +171,21 @@ a.nav-link:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color:var(--dark-blue);
-    /* justify-content: center; */
     background-size: contain;
 }
 
 .menu2BG{
-    /* display: flex; */
-    /* max-width: 50%; */
     position: relative;
 }
 
-.yellowSquare {
+/* .yellowSquare {
     width: 350px;
     justify-content: flex-start;
   }
 
 .blueGridSquare{
     width: 500px;
-}
+} */
 
 
 /* menu3Container */
@@ -189,9 +197,10 @@ a.nav-link:hover {
 .menu3Container{
     display: grid;
     justify-content: center;
-    padding: 3.5rem;
+    padding: 7rem;
     gap: 5rem;
 }
+
 
 .sec1,
 .sec2,
@@ -208,6 +217,10 @@ a.nav-link:hover {
 .menu3Data{
     /* transform: translateX(-100%); */
     width: 50%;
+    /* display: grid; */
+    grid-template-rows: (2, 1fr);
+    margin: auto;
+    padding: auto;
     /* display: flex; */
     /* animation-name: slideFromLeft;
     animation-duration: 1s;
@@ -239,42 +252,71 @@ a.nav-link:hover {
 }
 
 /* contact */
+.contact{
+    padding: 5rem;
+    align-items: center;
+}
+
+.contactInnerBoard{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: 70%;
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: 10%;
+    left: -20%;
+    color:var(--dark-blue);
+    background-size: contain;
+}
+
 .menu4Container{
+    /* justify-content: center; */
     position: relative;
 }
 
-.contactForm{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:var(--dark-blue);
-    /* justify-content: center; */
-    /* background-size: contain; */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    box-sizing: border-box;
 }
 
-.contactForm{
-    row-gap: 1.5rem;
-    width: 150%;
-    align-items: center;    
+input[type=submit] {
+    width: 35%;
+    background-color: var(--blue-light);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+} 
+
+input[type=submit]:hover {
+    background-color: var(--dark-blue);
 }
-.contactGroup{
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    justify-content: space-between;
-}
-.contactInput{
-    padding: 1.5rem;
-}
+
 
 /* footer */
 .footer{
     width: 100%;
-    background-color: var(--dark-blue);
+    /* background-color: var(--dark-blue); */
+    background-image: url('../assets/Footer.png');
     color: var(--white-grey);
-    display: flex;
-    padding: 1rem;
+    /* display: flex; */
+    background-size: cover;
+    padding: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 7rem;
     justify-content: center;
+    align-items: center;
 }
 
 .footerContainer{
@@ -287,6 +329,8 @@ a.nav-link:hover {
 
 .footerList{
     font-size: var(--normal-font-size);
+    padding: 0;
+    margin: auto;
 }
 
 .footerSocial{
