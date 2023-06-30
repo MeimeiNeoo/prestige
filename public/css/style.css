@@ -1,0 +1,343 @@
+
+:root{
+    --dark-blue: #174c92;
+    --white-grey: #f5f6f7;    
+    --yelow-light: #fcf9be;
+    --golden:#FFD700;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: var(--white-grey); */
+    width: 100%;
+    /* background: url("../assets/bg.jpg") repeat; */
+    background: url("../assets/BG_WhiteEditted.png") repeat;
+}
+
+.html{
+    scroll-behavior: smooth; 
+}
+
+/* .main{
+    overflow: hidden;
+} */
+
+section{
+    justify-content: center;
+    display: flex;
+}
+
+nav.header{
+    position: fixed;
+    width: 100%;
+    /* background-color: var(--dark-blue); */
+    /* background-image: url("../assets/BG_Blue.jpg"); */
+    top: 0rem;
+    left: 0rem;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+    font-weight: bold;
+}
+
+a.nav-link{
+    color: var(--golden);
+}
+
+a.nav-link.active-link {
+    color: var(--yelow-light);
+    display: flex;
+}
+
+a.nav-link:hover {
+    color: var(--yelow-light);
+}
+
+.underlineStyle{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(225, 225, 225, 0.3), rgba(225, 225, 225, 0.75), rgba(225, 225, 225, 0.3));
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+/* animation transition */
+@keyframes slideFromTop {
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes slideFromLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromRight {
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounce{
+    60%{
+        transform: translateY(-15px);
+    }
+    0%,
+    20%,
+    50%,
+    80%,
+    100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(30px);
+    }
+}
+
+/* home */
+.homeContainer{
+    /* background-image: url("../assets/bgPaint.png"); */
+    background-image: url("../assets/BGBlueWave.png");
+    padding: 7rem;
+    color: var(--white-grey);
+    background-size: contain;
+    animation-name: slideFromTop;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: unset;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeData{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    animation-name: slideFromLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.homeImg{
+    animation-name: slideFromRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+/* menu2 */
+/* .menu3Container{
+    
+} */
+.menu2Data{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:var(--dark-blue);
+    /* justify-content: center; */
+    background-size: contain;
+}
+
+.menu2BG{
+    /* display: flex; */
+    /* max-width: 50%; */
+    position: relative;
+}
+
+.yellowSquare {
+    width: 350px;
+    justify-content: flex-start;
+  }
+
+.blueGridSquare{
+    width: 500px;
+}
+
+
+/* menu3Container */
+.menu3{
+    align-items: center;
+    justify-content: center;
+}
+
+.menu3Container{
+    display: grid;
+    justify-content: center;
+    padding: 3.5rem;
+    gap: 5rem;
+}
+
+.sec1,
+.sec2,
+.sec3{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.sec2{
+    /* justify-content: right; */
+}
+
+.menu3Data{
+    /* transform: translateX(-100%); */
+    width: 50%;
+    /* display: flex; */
+    /* animation-name: slideFromLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none; */
+}
+.menu3Data.show-animate .animate{
+    /* transform: translateX(0); */
+    /* animation-name: slideFromLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    animation-fill-mode: none; */
+}
+.animate{
+    /* transition: 1s; */
+}
+
+.menu3Img{
+    /* width: 50%; */
+    /* animation-name: slideFromRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none; */
+}
+
+/* contact */
+.menu4Container{
+    position: relative;
+}
+
+.contactForm{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:var(--dark-blue);
+    /* justify-content: center; */
+    /* background-size: contain; */
+}
+
+.contactForm{
+    row-gap: 1.5rem;
+    width: 150%;
+    align-items: center;    
+}
+.contactGroup{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    justify-content: space-between;
+}
+.contactInput{
+    padding: 1.5rem;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    background-color: var(--dark-blue);
+    color: var(--white-grey);
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.footerContainer{
+    row-gap: 2rem;
+}
+
+.footerTitle{
+    margin-bottom: .25rem;
+}
+
+.footerList{
+    font-size: var(--normal-font-size);
+}
+
+.footerSocial{
+    display: flex;
+    justify-content: center;
+    /* column-gap: 1.25rem; */
+}
+
+.footerSocialLink{
+    display: inline-block;
+    padding: .5rem;
+    color: var(--white-grey);
+    font-size: 1.5rem;
+    transition: transform .4s;
+}
+
+.footerSocialLink:hover{
+    transform: translateY(-.25rem);
+}
+
+.footerCopyright{
+    font-size: var(--smaller-font-size);
+}
+
+/* medium device */
+@media screen and (max-width: 576px) {
+    .homeContainer{
+        /* padding: 2rem; */
+        width: fit-content;
+        background-repeat: no-repeat;
+        /* background-image: url("../assets/bgPaintMedium.png");   */
+        background-size: cover; 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 9rem;
+    }
+    .homeImg{
+        
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;        
+    }
+}
+
+
+
+/* medium device */
+@media screen and (max-width: 1025px) {
+   .homeContainer{
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+}
