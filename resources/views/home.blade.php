@@ -25,8 +25,21 @@
     </section>
 
     {{-- menu2 section  --}}
-    <section class="menu2 section" id="menu2">
+    {{-- ini section background  --}}
+    {{-- <section class="menu2 section" id="menu2">
         <div class="container-fluid menu2Container grid">
+            <div class="text-center bg-text menu2Data mx-auto">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem perspiciatis consequuntur 
+                    assumenda facilis id eos iusto voluptas eaque! Nam cumque, hic similique voluptates, nisi, iste 
+                    corporis minima quasi tenetur ad unde esse illum? At, qui.</p>
+            </div>
+        </div>
+    </section> --}}
+    {{-- ini section timpa  --}}
+    <section class="menu2 section" id="menu2">
+        <div class="container-fluid menu2Container">
+            <img class="img-fluid" src="assets\menu2BG.png" alt="Responsive image" >
             <div class="text-center bg-text menu2Data mx-auto">
                 <h1>Lorem ipsum dolor sit amet.</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem perspiciatis consequuntur 
@@ -79,7 +92,8 @@
     </section>
 
     {{-- Contact section  --}}
-    <section class="contact section" id="contact">
+    {{-- ini bagian background --}}
+    {{-- <section class="contact section" id="contact">
         <div class="container-fluid contactContainer">
             <div class="contactInnerBoard row">
                 <div class="contactData col">                    
@@ -97,10 +111,11 @@
                 </div>
             </div>
         </div>
-    </section>
-    {{-- <section class="contact Section" id="contact">
-        <div class="menu4Container">            
-            <img class="img-fluid" src="assets\Asset18@300x.png" alt="Responsive image" >
+    </section> --}}
+    {{-- ini bagian timpa --}}
+    <section class="contact Section" id="contact">
+        <div class="contactContainer">            
+            <img class="img-fluid blankBoardImg" src="assets\Asset18@300x.png" alt="Responsive image" >
             <div class="contactInnerBoard row">
                 <div class="contactData col">                    
                     <h1>Lorem, ipsum dolor.</h1>
@@ -117,7 +132,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 @endsection
 
 

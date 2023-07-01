@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&family=Engagement&family=Public+Sans:wght@300;500;700&display=swap');
 
 :root{
     --dark-blue: #174c92;
@@ -5,6 +6,8 @@
     --yelow-light: #fcf9be;
     --golden:#FFD700;
     --blue-light: #0071BC;
+
+    --body-font: "Public-Sans", sans-serif;
 }
 
 *{
@@ -14,22 +17,17 @@
 }
 
 body, html {
-    /* background-color: var(--white-grey); */
     width: 100%;
-    /* background: url("../assets/bg.jpg") repeat; */
     background: url("../assets/BG_WhiteEditted.png") repeat;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    font-family: var(--body-font);
 }
 
 .html{
     scroll-behavior: smooth; 
 }
-
-/* .main{
-    overflow: hidden;
-} */
 
 section{
     justify-content: center;
@@ -39,13 +37,12 @@ section{
 nav.header{
     position: fixed;
     width: 100%;
-    /* background-color: var(--dark-blue); */
-    /* background-image: url("../assets/BG_Blue.jpg"); */
     top: 0rem;
     left: 0rem;
     padding: 1rem;
     backdrop-filter: blur(10px);
     font-weight: bold;
+    z-index: 100;
 }
 
 a.nav-link{
@@ -165,10 +162,9 @@ a.nav-link:hover {
 }
 
 /* menu2 */
-
-.menu2Container{
+/* ini bagian bg  */
+/* .menu2Container{
     background-image: url("../assets/menu2BG.png");
-    /* padding: 10rem; */
     height: 100vh;
     color: var(--dark-blue);
     background-size: cover;
@@ -177,8 +173,21 @@ a.nav-link:hover {
 .menu2Data{
     width: 50%;
     padding-top: 25%;
+} */
+
+/* ini bagian timpa */
+.menu2Container{
+    position: relative;
 }
 
+.menu2Data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:var(--dark-blue);
+    background-size: auto;
+}
 
 /* .yellowSquare {
     width: 350px;
@@ -254,12 +263,12 @@ a.nav-link:hover {
 }
 
 /* contact */
-.contact{
+/* contact bagian bg  */
+/* .contact{
     padding: 0;
     margin:0;
 }
 .contactContainer{
-    /* padding: 5rem; */
     background-image: url("../assets/Asset18@300x.png");
     background-size: cover;
     height: 100vh;
@@ -270,33 +279,33 @@ a.nav-link:hover {
 }
 
 .contactInnerBoard{
-    /* padding: 5rem; */
-    /* justify-content: center;
-    align-items: center; */
-    width: 80%;
+    width: 80%; */
+/* } */
+
+    /* contact bgian timpa */
+.contact{
+    padding: 3rem;
 }
 
-/* .contact{
-    padding: 5rem;
+.contactContainer{
     align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
 
 .contactInnerBoard{
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
     width: 70%;
     position: absolute;
-    transform: translate(50%, 50%);
-    top: 10%;
-    left: -20%;
     color:var(--dark-blue);
-    background-size: contain;
-} */
+    justify-content: center;
+    align-items: center;
+} 
 
-/* .menu4Container{
-    position: relative;
-} */
-
+.blankBoardImg{
+    width: 100%;
+}
 
 input[type=text], select {
     width: 100%;
