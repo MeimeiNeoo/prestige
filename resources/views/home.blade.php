@@ -49,7 +49,7 @@
 
     {{-- menu3 section  --}}
     <section class="menu3 Section" id="menu3">
-        <div class="menu3Container container grid">
+        <div class="menu3Container grid">
             <div class="sec1 grid col show-animate">
                 <div class="menu3Data ">
                     <h1 class="animate">Lorem, ipsum dolor.</h1>
@@ -59,12 +59,12 @@
                     <button class="btn">Lorem ipsum</button>
                 </div>
                 <div class="menu3Img">
-                    <img src="assets\InstagramPost3D.png" alt="" width="300px">
+                    <img src="assets\InstagramPost3D.png" alt="" >
                 </div>
             </div>
             <div class="sec2 grid col">
                 <div class="menu3Img">
-                    <img src="assets\TiktokVideo.png" alt="" width="300px">
+                    <img src="assets\TiktokVideo.png" alt="" >
                 </div>
                 <div class="menu3Data">
                     <h1 class="animate">Lorem, ipsum dolor.</h1>
@@ -83,7 +83,7 @@
                     <button class="btn">Lorem ipsum</button>    
                 </div>
                 <div class="menu3Img">
-                    <img src="assets\Asset17@300x.png" alt="" width="300px">
+                    <img src="assets\Asset17@300x.png" alt="" >
                 </div>
             </div>
          </div>
@@ -138,26 +138,26 @@
 @section('footer')
     <section class="foooter section row" id="footer">
         <div class="container-fluid footerContainer row">
-            <div class="col">
+            <div class="aboutCompany col">
                 <h5 class="footerTitle">About Company</h5>
                 <p class="footerList">Lorem Ipsum</p>
                 <p class="footerList">Lorem Ipsum</p>
                 <p class="footerList">Lorem Ipsum</p>
                 <p class="footerList">Lorem Ipsum</p>
             </div>
-            <div class="col">
+            <div class="services col">
                 <h5 class="footerTitle">Services</h5>
                 <p class="footerList">Lorem Ipsum</p>
                 <p class="footerList">Lorem Ipsum</p>
                 <p class="footerList">Lorem Ipsum</p>
                 <p class="footerList">Lorem Ipsum</p>
             </div>
-            <div class="footerSocial col">
-                <div class="row">
-                    <h1 class="footerTitle placeholder-glow">
+            <div class="socialMedia col">
+                <div class="footerSocial row">
+                    <h5 class="footerTitle">
                         Social Media
-                    </h1>
-                    <div class="col">
+                    </h5>
+                    <div class="socialIcon col">
                         <a href="https://www.facebook.com" target="_blank" class="footerSocialLink">
                             <i class="bi bi-facebook"></i>
                         </a>
