@@ -9,16 +9,16 @@
     {{-- home section  --}}
     <section class="home section" id="home">
         <div class="container-fluid homeContainer mx-auto row">
-                <div class="mx-auto homeData col">
-                    <h1>Lorem, ipsum dolor.</h1>
-                    <hr class="underlineStyle">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
+                <section class="mx-auto homeData col show-animate">
+                    <h1 class="animate">Lorem, ipsum dolor.</h1>
+                    <hr class="underlineStyle animate">
+                    <p class="animate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
-                </div>
-                <div class="homeImg col">
-                    <img src="assets\homeImage.png" alt="" class="img ">
-                </div>
+                </section>
+                <section class="homeImg col show-animate">
+                    <img src="assets\homeImage.png" alt="" class="img animate">
+                </section>
         </div>
     </section>
 
@@ -37,12 +37,16 @@
     {{-- ini section timpa  --}}
     <section class="menu2 section" id="menu2">
         <div class="container-fluid menu2Container">
-            <img class="img-fluid" src="assets\menu2BG.png" alt="Responsive image" >
-            <div class="text-center bg-text menu2Data mx-auto">
-                <h1>Lorem ipsum dolor sit amet.</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem perspiciatis consequuntur 
-                    assumenda facilis id eos iusto voluptas eaque! Nam cumque, hic similique voluptates, nisi, iste 
-                    corporis minima quasi tenetur ad unde esse illum? At, qui.</p>
+            <section class="menu2Img show-animate">
+                <img class="img-fluid animate" src="assets\menu2BG.png" alt="Responsive image" >
+            </section>
+                <div class="text-center bg-text menu2Data mx-auto">
+                    <section class="secMenu2Data show-animate">
+                        <h1 class="animate">Lorem ipsum dolor sit amet.</h1>
+                        <p class="animate">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem perspiciatis consequuntur 
+                            assumenda facilis id eos iusto voluptas eaque! Nam cumque, hic similique voluptates, nisi, iste 
+                            corporis minima quasi tenetur ad unde esse illum? At, qui.</p>
+                    </section>
             </div>
         </div>
     </section>
@@ -50,42 +54,42 @@
     {{-- menu3 section  --}}
     <section class="menu3 Section" id="menu3">
         <div class="menu3Container grid">
-            <div class="sec1 grid col show-animate">
-                <div class="menu3Data ">
-                    <h1 class="animate">Lorem, ipsum dolor.</h1>
-                    <p class="animate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
+            <section class="sec1 grid col show-animate">
+                <div class= "menu3Data animate">
+                    <h1 class="">Lorem, ipsum dolor.</h1>
+                    <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
                     <button class="btn">Lorem ipsum</button>
-                </div>
-                <div class="menu3Img">
+                    </div>
+                <div class="menu3Img animate">
                     <img src="assets\InstagramPost3D.png" alt="" >
                 </div>
-            </div>
-            <div class="sec2 grid col">
-                <div class="menu3Img">
+            </section>
+            <section class="sec2 grid col show-animate">
+                <div class="menu3Img animate">
                     <img src="assets\TiktokVideo.png" alt="" >
                 </div>
-                <div class="menu3Data">
-                    <h1 class="animate">Lorem, ipsum dolor.</h1>
-                    <p class="animate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
+                <div class="menu3Data animate">
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
                     <button class="btn">Lorem ipsum</button>
                 </div>                
-            </div>
-            <div class="sec3 grid col">
-                <div class="menu3Data">
-                    <h1 class="animate">Lorem, ipsum dolor.</h1>
-                    <p class="animate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
+            </section>
+            <section class="sec3 grid col show-animate">
+                <div class="menu3Data animate" >
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
                     <button class="btn">Lorem ipsum</button>    
                 </div>
-                <div class="menu3Img">
+                <div class="menu3Img animate">
                     <img src="assets\Asset17@300x.png" alt="" >
                 </div>
-            </div>
+            </section>
          </div>
     </section>
 
@@ -112,15 +116,17 @@
     </section> --}}
     {{-- ini bagian timpa --}}
     <section class="contact Section" id="contact">
-        <div class="contactContainer">            
-            <img class="img-fluid blankBoardImg" src="assets\Asset18@300x.png" alt="Responsive image" >
-            <div class="contactInnerBoard row">
-                <div class="contactData col">                    
+        <div class="contactContainer">    
+            <section class="contactImg show-animate">
+                <img class="img-fluid blankBoardImg animate" src="assets\Asset18@300x.png" alt="Responsive image" >
+            </section> 
+            <section class="contactInnerBoard row show-animate">
+                <div class="contactData col animate">                    
                     <h1>Lorem, ipsum dolor.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repudiandae ad quaerat magnam. 
                         Harum ab accusamus voluptatum dolores, eos quaerat.</p>
                 </div>
-                <div class="contactInput col">
+                <div class="contactInput col animate">
                     <form name="submit-to-google-sheet" action="" class="contactForm" id="contactForm">
                         <input type="text" id="name" name="name" placeholder="Name">
                         <input type="text" id="subject" name="subject" placeholder="Subject">
@@ -128,7 +134,7 @@
                         <input class="submit" type="submit" value="Submit">
                     </form>
                 </div>
-            </div>
+            </section>
         </div>
     </section>
 @endsection

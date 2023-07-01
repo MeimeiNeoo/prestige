@@ -21,7 +21,6 @@ body, html {
     background: url("../assets/BG_WhiteEditted.png") repeat;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
     font-family: var(--body-font);
 }
 
@@ -29,17 +28,13 @@ body, html {
     scroll-behavior: smooth; 
 }
 
-section{
-    justify-content: center;
-    display: flex;
+.menuContainer{
+    overflow: hidden;
 }
 
 nav.header{
     position: fixed;
     width: 100%;
-    top: 0rem;
-    left: 0rem;
-    padding: 1rem;
     backdrop-filter: blur(10px);
     font-weight: bold;
     z-index: 100;
@@ -126,6 +121,14 @@ a.nav-link:hover {
     }
 }
 
+
+/* animation start  */
+section .animate{
+    transition: 2s;
+}
+
+
+
 /* home */
 .homeContainer{
     /* background-image: url("../assets/bgPaint.png"); */
@@ -145,23 +148,40 @@ a.nav-link:hover {
 }
 
 .homeData{
-    animation-name: slideFromLeft;
+    /* animation-name: slideFromLeft;
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
     animation-direction: normal;
-    animation-fill-mode: none;
+    animation-fill-mode: none; */
 }
 
 .homeImg{
-    animation-name: slideFromRight;
+    /* animation-name: slideFromRight;
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: none;
     justify-content: right;
-    display: flex;
+    display: flex; */
+}
+
+/* home animation */
+.homeImg.show-animate .animate{
+    transform: translateX(10%);
+}
+
+.homeImg .animate{
+    transform: translateX(0);
+}
+
+.homeData.show-animate .animate{
+    transform: translateX(-10%);
+}
+
+.homeData .animate{
+    transform: translateX(0);
 }
 
 
@@ -192,6 +212,24 @@ a.nav-link:hover {
     color:var(--dark-blue);
     background-size: auto;
 }
+
+/* menu2 animation  */
+.menu2Img.show-animate .animate{
+    transform: translateX(-300%);
+}
+
+.menu2Img .animate{
+    transform: translateX(0);
+}
+
+.secMenu2Data.show-animate .animate{
+    transform: translateX(300%);
+}
+
+.secMenu2Data .animate{
+    transform: translateX(0);
+}
+
 
 /* .yellowSquare {
     width: 350px;
@@ -231,30 +269,29 @@ a.nav-link:hover {
 
 
 .menu3Data{
-    /* transform: translateX(-100%); */
     width: 50%;
-    /* display: grid; */
     grid-template-rows: (2, 1fr);
     margin: 0;
     padding: 0;
-    /* display: flex; */
-    /* animation-name: slideFromLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none; */
 }
-.menu3Data.show-animate .animate{
-    /* transform: translateX(0); */
-    /* animation-name: slideFromLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-direction: normal;
-    animation-fill-mode: none; */
+
+/* try animation for section3 */
+.sec1 .animate,
+.sec3 .animate{
+    transform: translateX(-250%);
 }
-.animate{
-    /* transition: 1s; */
+
+.sec1.show-animate .animate,
+.sec3.show-animate .animate{
+    transform: translateX(0);
+}
+
+.sec2 .animate{
+    transform: translateX(250%);
+}
+
+.sec2.show-animate .animate{
+    transform: translateX(0);
 }
 
 .menu3Img{
@@ -349,14 +386,28 @@ input[type=submit]:hover {
     background-color: var(--dark-blue);
 }
 
+/* contact animation */
+.contactImg.show-animate .animate{
+    transform: translateX(0);
+}
+
+.contactImg .animate{
+    transform: translateX(300%);
+}
+
+.contactInnerBoard.show-animate .animate{
+    transform: translateX(0);
+}
+
+.contactInnerBoard .animate{
+    transform: translateX(-250%);
+}
 
 /* footer */
 .footer{
     width: 100%;
-    /* background-color: var(--dark-blue); */
     background-image: url('../assets/Footer.png');
     color: var(--white-grey);
-    /* display: flex; */
     background-size: cover;
     padding: 5rem;
     padding-bottom: 2rem;
@@ -396,11 +447,6 @@ input[type=submit]:hover {
     margin: 0;
     /* column-gap: 1.25rem; */
 }
-
-/* .socialIcon{
-    display: grid;
-    grid-template-rows: repeat(3, 2fr);
-} */
 
 .footerSocialLink{
     display: inline-block;
