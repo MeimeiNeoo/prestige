@@ -13,11 +13,14 @@
     margin: 0;
 }
 
-body {
+body, html {
     /* background-color: var(--white-grey); */
     width: 100%;
     /* background: url("../assets/bg.jpg") repeat; */
     background: url("../assets/BG_WhiteEditted.png") repeat;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 .html{
@@ -162,21 +165,20 @@ a.nav-link:hover {
 }
 
 /* menu2 */
-/* .menu3Container{
-    
-} */
-.menu2Data{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:var(--dark-blue);
-    background-size: contain;
+
+.menu2Container{
+    background-image: url("../assets/menu2BG.png");
+    /* padding: 10rem; */
+    height: 100vh;
+    color: var(--dark-blue);
+    background-size: cover;
 }
 
-.menu2BG{
-    position: relative;
+.menu2Data{
+    width: 50%;
+    padding-top: 25%;
 }
+
 
 /* .yellowSquare {
     width: 350px;
@@ -253,14 +255,33 @@ a.nav-link:hover {
 
 /* contact */
 .contact{
+    padding: 0;
+    margin:0;
+}
+.contactContainer{
+    /* padding: 5rem; */
+    background-image: url("../assets/Asset18@300x.png");
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contactInnerBoard{
+    /* padding: 5rem; */
+    /* justify-content: center;
+    align-items: center; */
+    width: 80%;
+}
+
+/* .contact{
     padding: 5rem;
     align-items: center;
 }
 
 .contactInnerBoard{
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     width: 70%;
@@ -270,12 +291,11 @@ a.nav-link:hover {
     left: -20%;
     color:var(--dark-blue);
     background-size: contain;
-}
+} */
 
-.menu4Container{
-    /* justify-content: center; */
+/* .menu4Container{
     position: relative;
-}
+} */
 
 
 input[type=text], select {
@@ -319,11 +339,13 @@ input[type=submit]:hover {
     align-items: center;
 }
 
-.footerContainer{
-    row-gap: 2rem;
+.footerContainer,
+.footerCopyright{
+    padding: 1rem;
 }
 
 .footerTitle{
+    padding-top: 1rem;
     margin-bottom: .25rem;
 }
 
@@ -351,9 +373,6 @@ input[type=submit]:hover {
     transform: translateY(-.25rem);
 }
 
-.footerCopyright{
-    font-size: var(--smaller-font-size);
-}
 
 /* medium device */
 @media screen and (max-width: 576px) {
@@ -380,8 +399,11 @@ input[type=submit]:hover {
 
 /* medium device */
 @media screen and (max-width: 1025px) {
+    /* section home */
    .homeContainer{
     background-repeat: no-repeat;
     background-size: cover;
    }
+
+
 }

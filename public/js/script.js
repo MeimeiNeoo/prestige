@@ -29,7 +29,7 @@ window.addEventListener('scroll', scrollActive)
 // require('ScrollReveal')
 // import ScrollReveal from 'scrollreveal';
 // require('scrollreveal')().reveal('.sreveal');
-// import 'scrollreveal';
+import 'scrollreveal';
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
