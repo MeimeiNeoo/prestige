@@ -70,16 +70,19 @@ a.nav-link:hover {
 }
 
 .btn{
-    width: 35%;
+    width: 50%;
     background-color: var(--blue-light);
-    color: white;
+    color: var(--white-grey);
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 100px;
     cursor: pointer;
 }
-
+.btn:hover{
+    background-color: var(--dark-blue);
+    color: var(--white-grey);
+}
 /* animation transition */
 @keyframes slideFromTop {
     from{
@@ -129,21 +132,19 @@ a.nav-link:hover {
     background-image: url("../assets/BGBlueWave.png");
     padding: 7rem;
     color: var(--white-grey);
-    background-size: contain;
+    background-size: cover;
     animation-name: slideFromTop;
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-iteration-count: unset;
     animation-direction: normal;
     animation-fill-mode: none;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .homeData{
-    padding-top: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
     animation-name: slideFromLeft;
     animation-duration: 1s;
     animation-timing-function: ease-in;
@@ -383,36 +384,5 @@ input[type=submit]:hover {
 }
 
 
-/* medium device */
-@media screen and (max-width: 576px) {
-    .homeContainer{
-        /* padding: 2rem; */
-        width: fit-content;
-        background-repeat: no-repeat;
-        /* background-image: url("../assets/bgPaintMedium.png");   */
-        background-size: cover; 
-        margin-left: auto;
-        margin-right: auto;
-        padding: 9rem;
-    }
-    .homeImg{
-        
-    width: 100%;
-    height: auto;
-    left: 0px;
-    right: 0px;        
-    }
-}
-
-
-
-/* medium device */
-@media screen and (max-width: 1025px) {
-    /* section home */
-   .homeContainer{
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
-
-
-}
+/* responsive css */
+/* dari max-widt: 991px */

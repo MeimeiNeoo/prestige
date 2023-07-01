@@ -8,8 +8,7 @@
 @section('menuContainer')
     {{-- home section  --}}
     <section class="home section" id="home">
-        <div class="container-fluid homeContainer grid">
-            <div class="mx-auto row">
+        <div class="container-fluid homeContainer mx-auto row">
                 <div class="mx-auto homeData col">
                     <h1>Lorem, ipsum dolor.</h1>
                     <hr class="underlineStyle">
@@ -18,9 +17,8 @@
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
                 </div>
                 <div class="homeImg col">
-                    <img src="assets\homeImage.png" alt="" class="img">
+                    <img src="assets\homeImage.png" alt="" class="img ">
                 </div>
-            </div>
         </div>
     </section>
 
