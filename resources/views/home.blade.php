@@ -40,14 +40,14 @@
             <section class="menu2Img show-animate">
                 <img class="img-fluid animate" src="assets\menu2BG.png" alt="Responsive image" >
             </section>
-                <div class="text-center bg-text menu2Data mx-auto">
-                    <section class="secMenu2Data show-animate">
+            {{-- <section class="secMenu2Data show-animate"> --}}
+                <section class="text-center bg-text mx-auto menu2Data show-animate">
                         <h1 class="animate">Lorem ipsum dolor sit amet.</h1>
                         <p class="animate">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem perspiciatis consequuntur 
                             assumenda facilis id eos iusto voluptas eaque! Nam cumque, hic similique voluptates, nisi, iste 
-                            corporis minima quasi tenetur ad unde esse illum? At, qui.</p>
-                    </section>
-            </div>
+                            corporis minima quasi tenetur ad unde esse illum? At, qui.</p>    
+                </section>
+            {{-- </section> --}}
         </div>
     </section>
 

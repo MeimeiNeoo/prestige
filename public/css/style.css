@@ -124,7 +124,7 @@ a.nav-link:hover {
 
 /* animation start  */
 section .animate{
-    transition: 2s;
+    transition: 1s;
 }
 
 
@@ -147,29 +147,9 @@ section .animate{
     display: flex;
 }
 
-.homeData{
-    /* animation-name: slideFromLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none; */
-}
-
-.homeImg{
-    /* animation-name: slideFromRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    justify-content: right;
-    display: flex; */
-}
-
 /* home animation */
 .homeImg.show-animate .animate{
-    transform: translateX(10%);
+    transform: translateX(5%);
 }
 
 .homeImg .animate{
@@ -177,7 +157,7 @@ section .animate{
 }
 
 .homeData.show-animate .animate{
-    transform: translateX(-10%);
+    transform: translateX(-5%);
 }
 
 .homeData .animate{
@@ -186,6 +166,9 @@ section .animate{
 
 
 /* menu2 */
+.menu2{
+    padding: .3rem;
+}
 /* ini bagian bg  */
 /* .menu2Container{
     background-image: url("../assets/menu2BG.png");
@@ -206,8 +189,9 @@ section .animate{
 
 .menu2Data{
     position: absolute;
+    width: 50%;
     top: 50%;
-    left: 50%;
+    left:50% ;
     transform: translate(-50%, -50%);
     color:var(--dark-blue);
     background-size: auto;
@@ -222,11 +206,11 @@ section .animate{
     transform: translateX(0);
 }
 
-.secMenu2Data.show-animate .animate{
+.menu2Data.show-animate .animate{
     transform: translateX(300%);
 }
 
-.secMenu2Data .animate{
+.menu2Data .animate{
     transform: translateX(0);
 }
 
