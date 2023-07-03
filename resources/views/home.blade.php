@@ -40,14 +40,75 @@
             <section class="menu2Img show-animate">
                 <img class="img-fluid animate" src="assets\menu2BG.png" alt="Responsive image" >
             </section>
-            {{-- <section class="secMenu2Data show-animate"> --}}
-                <section class="text-center bg-text mx-auto menu2Data show-animate">
-                        <h1 class="animate">Lorem ipsum dolor sit amet.</h1>
-                        <p class="animate">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem perspiciatis consequuntur 
-                            assumenda facilis id eos iusto voluptas eaque! Nam cumque, hic similique voluptates, nisi, iste 
-                            corporis minima quasi tenetur ad unde esse illum? At, qui.</p>    
-                </section>
-            {{-- </section> --}}
+            <section class="text-center bg-text mx-auto menu2Data show-animate">
+                <h1 class="animate">Lorem ipsum dolor sit amet.</h1>
+                <p class="animate">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem perspiciatis consequuntur 
+                    assumenda facilis id eos iusto voluptas eaque! Nam cumque, hic similique voluptates, nisi, iste 
+                    corporis minima quasi tenetur ad unde esse illum? At, qui.</p>    
+            </section>
+        </div>
+    </section>
+
+
+    {{-- visimisi --}}
+    <section class="visimisi section" id="visimisi">
+        <div class="visimisiContainer"> 
+            <section class="visiContainer">
+                <img src="assets\visi.png" class="img-fluid visiBG" alt="Responsive image">
+                <div class="visiData col">
+                    <h1>VISION</h1>
+                    <p>to become the unrivaled branding consultancy and social mediaspecialist, with an excellent reputation both nationally and internationally.</p>
+                </div>
+            </section>
+            <section class="misiContainer">
+                <img src="assets\misi.png" class="img-fluid misiBG" alt="Responsive Img">
+                <div class="misiData col">
+                    <h1>MISI</h1>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis minima quaerat deleniti? Dicta a alias aliquid, sit aut vitae temporibus inventore fugiat eligendi laboriosam ex earum ullam, numquam illum!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    {{-- prestige team --}}
+    <section class="prestigeTeam section" id="prestigeTeam">
+        <h1 class="prestigeTeamTitle">PRESTIGE TEAM</h1>
+        <div class="prestigeTeamContent container-fluid grid">
+            <div class="prestigeTeamList">
+                <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
+                <div class="prestigeTeamListData grid">
+                    <h5>PHOTOGRAPHER</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
+                </div>
+            </div>
+            <div class="prestigeTeamList">
+                <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
+                <div class="prestigeTeamListData grid">
+                    <h5>VIDEOGRAPHER</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
+                </div>
+            </div>
+            <div class="prestigeTeamList">
+                <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
+                <div class="prestigeTeamListData grid">
+                    <h5>GRAPHIC DESIGNER</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
+                </div>
+            </div>
+            <div class="prestigeTeamList">
+                <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
+                <div class="prestigeTeamListData grid">
+                    <h5>CONTENT CREATOR</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
+                </div>
+            </div>
         </div>
     </section>
 
