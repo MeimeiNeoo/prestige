@@ -447,7 +447,7 @@ section .animate{
 /* animation prestige equipment   */
 .prestigeEquipment.show-animate .animate{
     animation-name: zoom-out-zoom-in;
-    animation-duration: 1.5s;
+    animation-duration: 1S;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
     animation-direction: normal;
@@ -510,7 +510,7 @@ section .animate{
 /* animation prestige office  */
 .prestigeOffice.show-animate .animate{
     animation-name: zoom-in-zoom-out;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
     animation-direction: normal;
@@ -537,13 +537,13 @@ section .animate{
     margin: 2.5rem;
     display: flex;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    align-items: justify;
 }
 
-.sec2{
+/* .sec2{
     justify-content: right;
     text-align: right;
-} 
+}  */
 
 
 .menu3Data{
@@ -572,19 +572,61 @@ section .animate{
     transform: translateX(0);
 }
 
-.menu3Img{
-    /* width: 50%; */
-    /* animation-name: slideFromRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none; */
-}
-
 .menu3Img img{
     width: 350px;
 }
+
+
+/* how we work  */
+.howWeWork{
+    padding: 5rem;
+}
+.howWeWorkContainer{
+    border: none;
+    background-color: white;
+    box-shadow: -8px 8px 10px grey;
+    padding: 2rem;
+    width: auto;
+    border-radius: 25px;
+}
+.hwwContent{
+    padding: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    transition: .4s;
+}
+.hwwDataContainer{
+    border: none;
+    background-color: lightgray;
+    padding: 1rem;
+    color: var(--dark-blue);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.circle{
+    border-radius: 50%;
+    background-color: var(--golden);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.hwwDataContainer h5{
+    padding-top: 1.5rem;
+    font-weight: bold;
+}
+
+/* how we work animation  */
+/* .hwwContent.show-animate .animate{
+    transform: translate(0);
+}
+.hwwContent .animate{
+    transform: translate(3.5rem, 3.5rem);
+} */
+.hwwDataContainer:hover{
+    transform: translateY(-2rem);
+}
+
+
 
 /* contact */
 /* contact bagian bg  */

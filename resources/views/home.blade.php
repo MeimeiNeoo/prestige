@@ -179,7 +179,7 @@
         <div class="menu3Container grid">
             <section class="sec1 grid col show-animate">
                 <div class= "menu3Data animate">
-                    <h1 class="">Lorem, ipsum dolor.</h1>
+                    <h1 class="">Branding Solution</h1>
                     <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
@@ -194,7 +194,7 @@
                     <img src="assets\TiktokVideo.png" alt="" >
                 </div>
                 <div class="menu3Data animate">
-                    <h1>Lorem, ipsum dolor.</h1>
+                    <h1>SOCIAL MEDIA MANAGEMENT</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
@@ -203,7 +203,31 @@
             </section>
             <section class="sec3 grid col show-animate">
                 <div class="menu3Data animate" >
-                    <h1>Lorem, ipsum dolor.</h1>
+                    <h1>PHOTOGRAPHY PORTOFOLIO</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
+                        praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
+                        accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
+                    <button class="btn">Lorem ipsum</button>    
+                </div>
+                <div class="menu3Img animate">
+                    <img src="assets\Asset17@300x.png" alt="" >
+                </div>
+            </section>
+            <section class="sec2 grid col show-animate">
+                <div class="menu3Img animate">
+                    <img src="assets\TiktokVideo.png" alt="" >
+                </div>
+                <div class="menu3Data animate">
+                    <h1>DESIGN GRAPHIN PORTOFOLIO</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
+                        praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
+                        accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
+                    <button class="btn">Lorem ipsum</button>
+                </div>                
+            </section>
+            <section class="sec3 grid col show-animate">
+                <div class="menu3Data animate" >
+                    <h1>DRONE PORTOFOLIO</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
                         praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
                         accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
@@ -215,6 +239,55 @@
             </section>
          </div>
     </section>
+
+
+    {{-- how we work  --}}
+    <section class="howWeWork section" id="howWeWork">
+        <div class="howWeWorkContainer">
+            <h1 class="contentTitle"> HOW WE WORK</h1>
+            <section class="hwwContent grid show-animate">
+                <div class="hwwDataContainer animate">
+                    <span class="circle"></span>
+                    <h5>In-Depth Analysis and Strategy</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum et a quidem omnis 
+                        voluptatum ullam cupiditate distinctio dolorem, aliquid quis facere rem, sit voluptatibus! 
+                        Nostrum nobis repellendus veritatis, atque asperiores laborum maxime! Cupiditate fugiat 
+                        commodi cumque aut, consectetur iusto ducimus nihil vel dignissimos eaque. Eos maiores 
+                        voluptas sit et?</p>
+                </div>
+                <div class="hwwDataContainer animate">
+                    <span class="circle"></span>
+                    <h5>Creativity in Design and Content</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum et a quidem omnis 
+                        voluptatum ullam cupiditate distinctio dolorem, aliquid quis facere rem, sit voluptatibus! 
+                        Nostrum nobis repellendus veritatis, atque asperiores laborum maxime! Cupiditate fugiat 
+                        commodi cumque aut, consectetur iusto ducimus nihil vel dignissimos eaque. Eos maiores 
+                        voluptas sit et?</p>
+                </div>
+                <div class="hwwDataContainer animate">
+                    <span class="circle"></span>
+                    <h5>Active Social Media Management</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum et a quidem omnis 
+                        voluptatum ullam cupiditate distinctio dolorem, aliquid quis facere rem, sit voluptatibus! 
+                        Nostrum nobis repellendus veritatis, atque asperiores laborum maxime! Cupiditate fugiat 
+                        commodi cumque aut, consectetur iusto ducimus nihil vel dignissimos eaque. Eos maiores 
+                        voluptas sit et?</p>
+                </div>
+                <div class="hwwDataContainer animate">
+                    <span class="circle"></span>
+                    <h5>Collaboration and Communication with Clients</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium illum, odit nulla 
+                        suscipit rem nam id magni maxime veritatis, voluptas libero ex autem eum. Quae facere 
+                        veritatis minima deleniti necessitatibus? Magni molestias rem unde voluptates error 
+                        nostrum ducimus esse beatae corporis, aperiam ipsam at, asperiores harum possimus 
+                        recusandae est ratione laborum quidem iusto, numquam aliquid nam magnam vero. Reiciendis, 
+                        quas! Praesentium quos repellat id sunt at explicabo molestias obcaecati autem dolores 
+                        dignissimos! Nisi quam iure cumque ad et in perferendis.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
 
     {{-- Contact section  --}}
     {{-- ini bagian background --}}
