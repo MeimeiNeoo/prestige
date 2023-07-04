@@ -472,16 +472,16 @@ section .animate{
 .prestigeOfficeContainer .arrowMapDown,
 .prestigeOfficeContainer .arrowMapUp{
     position: absolute;
-    width: 15%;
+    width: 18%;
 }
 
 .prestigeOfficeContainer .arrowMapDown{
-    margin-left: -29%;
-    margin-top: -6%;
+    margin-left: -32%;
+    margin-top: -4%;
 }
 
 .prestigeOfficeContainer .arrowMapUp{
-    margin-left: 29.5%;
+    margin-left: 32.5%;
     margin-top: 0%;
 }
 
@@ -492,13 +492,13 @@ section .animate{
 }
 
 .prestigeOfficeContainer .officeBTM{
-    margin-left: 50%;
-    margin-top: -30%;
+    margin-left: 55%;
+    margin-top: -31.5%;
 }
 
 .prestigeOfficeContainer .officeSG{
-    margin-left: -50%;
-    margin-top: 33%;
+    margin-left: -55%;
+    margin-top: 34%;
 }
 
 /* hover picture */
