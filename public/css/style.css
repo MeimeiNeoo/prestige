@@ -406,18 +406,20 @@ section .animate{
 /* prestige Equipment */
 .prestigeEquipment{
     padding: 10rem;
-    display: flex;
+    padding-top: 15rem;  
 }
 
 .prestigeEquipmentContainer{
-    padding-top: 7rem;
     grid-template-columns: auto auto;
     /* grid-template-columns:  repeat(auto-fit, minmax(350px, 2fr)); */
     justify-content: center;
     align-items: center;
 }
 
-.prestigeEquipmentList{
+.prestigeEquipmentList1,
+.prestigeEquipmentList2,
+.prestigeEquipmentList3,
+.prestigeEquipmentList4{
     align-items: center;
     display: flex;
 }
@@ -434,7 +436,7 @@ section .animate{
 
 .prestigeEquipmentData h5{
     font-weight: bold;
-    margin-left: 10%;
+    padding-left: 10%;
 }
 
 .prestigeEquipmentData p{
@@ -453,7 +455,6 @@ section .animate{
     animation-direction: normal;
     animation-fill-mode: none;
 }
-
 
 
 /* prestige Office */

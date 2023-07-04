@@ -115,8 +115,9 @@
 
     {{-- prestige equipment  --}}
     <section class="prestigeEquipment show-animate" id="prestigeEquipment">
+        <h1 class="contentTitle">PRESTTIGE EQUIPMENT</h1>
         <div class="prestigeEquipmentContainer grid animate">
-            <section class="prestigeEquipmentList">
+            <section class="prestigeEquipmentList1">
                 <img src="assets\prestigeEquipment1-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
                 <div class="prestigeEquipmentData" style="color: var(--white-grey)">
                     <h5>CAMERA</h5>
@@ -127,7 +128,7 @@
                     <p>Fujifilm X-T30</p>
                 </div>
             </section>
-            <section class="prestigeEquipmentList">
+            <section class="prestigeEquipmentList2">
                 <img src="assets\prestigeEquipment2-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
                 <div class="prestigeEquipmentData" style="color: var(--dark-blue)">
                     <h5>DRONE</h5>
@@ -135,7 +136,7 @@
                     <p>Drone DJI Air 2 Combo</p>
                 </div>
             </section>
-            <section class="prestigeEquipmentList">
+            <section class="prestigeEquipmentList3">
                 <img src="assets\prestigeEquipment3-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
                 <div class="prestigeEquipmentData" style="color: var(--white-grey)">
                     <h5>PC/LAPTOP</h5>
@@ -145,7 +146,7 @@
                     <p>Asus ROG G73JH</p>
                 </div>
             </section>
-            <section class="prestigeEquipmentList">
+            <section class="prestigeEquipmentList4">
                 <img src="assets\prestigeEquipment4-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
                 <div class="prestigeEquipmentData" style="color: var(--dark-blue)">
                     <h5>GADGET</h5>
