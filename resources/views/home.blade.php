@@ -41,30 +41,30 @@
                 <img class="img-fluid animate" src="assets\menu2BG.png" alt="Responsive image" >
             </section>
             <section class="text-center bg-text mx-auto menu2Data show-animate">
-                <h1 class="animate">Lorem ipsum dolor sit amet.</h1>
+                <h1 class="contentTitle animate">Lorem ipsum dolor sit amet.</h1>
                 <p class="animate">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem perspiciatis consequuntur 
                     assumenda facilis id eos iusto voluptas eaque! Nam cumque, hic similique voluptates, nisi, iste 
                     corporis minima quasi tenetur ad unde esse illum? At, qui.</p>    
             </section>
         </div>
     </section>
-
+        
 
     {{-- visimisi --}}
     <section class="visimisi section" id="visimisi">
         <div class="visimisiContainer"> 
-            <section class="visiContainer">
-                <img src="assets\visi.png" class="img-fluid visiBG" alt="Responsive image">
-                <div class="visiData col">
-                    <h1>VISION</h1>
-                    <p>to become the unrivaled branding consultancy and social mediaspecialist, with an excellent reputation both nationally and internationally.</p>
+            <section class="visiContainer show-animate">
+                <img src="assets\visi.png" class="img-fluid visiBG animate" alt="Responsive image">
+                <div class="visiData col animate">
+                    <h1 class="animate">VISION</h1>
+                    <p class="animate">to become the unrivaled branding consultancy and social mediaspecialist, with an excellent reputation both nationally and internationally.</p>
                 </div>
             </section>
-            <section class="misiContainer">
-                <img src="assets\misi.png" class="img-fluid misiBG" alt="Responsive Img">
-                <div class="misiData col">
-                    <h1>MISI</h1>
-                    <ul>
+            <section class="misiContainer show-animate">
+                <img src="assets\misi.png" class="img-fluid misiBG animate" alt="Responsive Img">
+                <div class="misiData col animate">
+                    <h1 class="animate">MISION</h1>
+                    <ul class="animate">
                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis minima quaerat deleniti? Dicta a alias aliquid, sit aut vitae temporibus inventore fugiat eligendi laboriosam ex earum ullam, numquam illum!</li>
                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
@@ -79,41 +79,103 @@
 
     {{-- prestige team --}}
     <section class="prestigeTeam section" id="prestigeTeam">
-        <h1 class="prestigeTeamTitle">PRESTIGE TEAM</h1>
-        <div class="prestigeTeamContent container-fluid grid">
-            <div class="prestigeTeamList">
+        <h1 class="contentTitle prestigeTeamTitle">PRESTIGE TEAM</h1>
+        <section class="prestigeTeamContent container-fluid grid show-animate">
+            <div class="prestigeTeamList animate">
                 <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
                 <div class="prestigeTeamListData grid">
                     <h5>PHOTOGRAPHER</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
                 </div>
             </div>
-            <div class="prestigeTeamList">
+            <div class="prestigeTeamList animate">
                 <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
                 <div class="prestigeTeamListData grid">
                     <h5>VIDEOGRAPHER</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
                 </div>
             </div>
-            <div class="prestigeTeamList">
+            <div class="prestigeTeamList animate">
                 <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
                 <div class="prestigeTeamListData grid">
                     <h5>GRAPHIC DESIGNER</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
                 </div>
             </div>
-            <div class="prestigeTeamList">
+            <div class="prestigeTeamList animate">
                 <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
                 <div class="prestigeTeamListData grid">
                     <h5>CONTENT CREATOR</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
                 </div>
             </div>
+        </section>
+    </section>
+
+
+    {{-- prestige equipment  --}}
+    <section class="prestigeEquipment show-animate" id="prestigeEquipment">
+        <div class="prestigeEquipmentContainer grid animate">
+            <section class="prestigeEquipmentList">
+                <img src="assets\prestigeEquipment1-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
+                <div class="prestigeEquipmentData" style="color: var(--white-grey)">
+                    <h5>CAMERA</h5>
+                    <p>Sony A7 Mark III</p>
+                    <p>Sony A7 Mark IV</p>
+                    <p>Fujifilm X-H1</p>
+                    <p>Fujifilm X-T100</p>
+                    <p>Fujifilm X-T30</p>
+                </div>
+            </section>
+            <section class="prestigeEquipmentList">
+                <img src="assets\prestigeEquipment2-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
+                <div class="prestigeEquipmentData" style="color: var(--dark-blue)">
+                    <h5>DRONE</h5>
+                    <p>Drone DJI Mavvic Pro</p>
+                    <p>Drone DJI Air 2 Combo</p>
+                </div>
+            </section>
+            <section class="prestigeEquipmentList">
+                <img src="assets\prestigeEquipment3-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
+                <div class="prestigeEquipmentData" style="color: var(--white-grey)">
+                    <h5>PC/LAPTOP</h5>
+                    <p>Macbook Pro M2</p>
+                    <p>Macbook Pro 2017</p>
+                    <p>Macbook Pro Air 2015, 2016, 2017</p>
+                    <p>Asus ROG G73JH</p>
+                </div>
+            </section>
+            <section class="prestigeEquipmentList">
+                <img src="assets\prestigeEquipment4-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
+                <div class="prestigeEquipmentData" style="color: var(--dark-blue)">
+                    <h5>GADGET</h5>
+                    <p>Ipad Pro 2022</p>
+                    <p>Iphone  13</p>
+                    <p>Iphone 8+</p>
+                    <p>Iphone 11 Promax</p>
+                <div>
+            </section>
         </div>
     </section>
 
+
+    
+    {{-- prestige Office  --}}
+    <section class="prestigeOffice" id="prestigeOffice">
+        <h1 class="contentTitle">PRESTIGE OFFICE</h1>
+        <section class="prestigeOfficeContainer show-animate">
+            <img src="assets\maps.png" class="maps animate" alt="Responsive image">
+            <img src="assets\arrowMapDown.png" class="arrowMapDown" alt="Responsive image">
+            <img src="assets\arrowMapUp.png" class="arrowMapUp" alt="Responsive image">
+            <img src="assets\officeBTM.png" class="officeBTM animate" alt="Responsive image">
+            <img src="assets\officeSG.png" class="officeSG animate" alt="Responsive image">
+        </section>
+    </section>
+
+
     {{-- menu3 section  --}}
     <section class="menu3 Section" id="menu3">
+        <h1 class="contentTitle">OUR SERVICES</h1>
         <div class="menu3Container grid">
             <section class="sec1 grid col show-animate">
                 <div class= "menu3Data animate">
