@@ -18,19 +18,20 @@
 
 body, html {
     width: 100%;
-    background: url("../assets/BG_WhiteEditted.png") repeat;
+    background: url("../assets/BGWhite-editted.png") repeat;
     margin: 0px;
     padding: 0px;
     font-family: var(--body-font);
+    overflow-x: hidden;
 }
 
 .html{
     scroll-behavior: smooth; 
 }
 
-.menuContainer{
+/* .menuContainer{
     overflow: hidden;
-}
+} */
 
 nav.header{
     position: fixed;
@@ -176,7 +177,8 @@ section .animate{
 /* home */
 .homeContainer{
     /* background-image: url("../assets/bgPaint.png"); */
-    background-image: url("../assets/BGBlueWave.png");
+    /* background-image: url("../assets/BGBlueWave.png"); */
+    background-image: url("../assets/BGBlueWaveGold3-cropped.png");
     padding: 7rem;
     color: var(--white-grey);
     background-size: contain;
@@ -191,6 +193,10 @@ section .animate{
     display: flex;
 }
 
+.homeData h1{
+    font-weight: bold;
+}
+
 /* home animation */
 .homeImg.show-animate .animate{
     transform: translateX(10%);
@@ -200,9 +206,9 @@ section .animate{
     transform: translateX(0);
 }
 
-.homeData.show-animate .animate{
+/* .homeData.show-animate .animate{
     transform: translateX(-10%);
-}
+} */
 
 .homeData .animate{
     transform: translateX(0);
@@ -234,8 +240,8 @@ section .animate{
 .menu2Data{
     position: absolute;
     width: 50%;
-    top: 50%;
-    left:50% ;
+    top: 35%;
+    left:50%;
     transform: translate(-50%, -50%);
     color:var(--dark-blue);
     background-size: auto;
@@ -522,60 +528,71 @@ section .animate{
 /* menu3Container */
 .menu3{
     padding-top: 7rem;
-    align-items: center;
-    justify-content: center;
+    color: var(--dark-blue);
 }
 
 .menu3Container{
     row-gap: 5rem;
-    padding: 7rem;
+    padding: 3rem;
     padding-top: 0;
 }
 
 .sec1,
 .sec2,
-.sec3{
+.sec3,
+.sec4,
+.sec5{
     margin: 2.5rem;
     display: flex;
     grid-template-columns: repeat(2, 1fr);
     align-items: justify;
+    align-items: center;
 }
 
-/* .sec2{
+.sec2,
+.sec4{
     justify-content: right;
-    text-align: right;
-}  */
+} 
 
 
 .menu3Data{
-    width: 50%;
+    width: 40%;
     grid-template-rows: (2, 1fr);
     margin: 0;
     padding: 0;
 }
 
-/* try animation for section3 */
-.sec1 .animate,
-.sec3 .animate{
-    transform: translateX(-250%);
-}
-
-.sec1.show-animate .animate,
-.sec3.show-animate .animate{
-    transform: translateX(0);
-}
-
-.sec2 .animate{
-    transform: translateX(250%);
-}
-
-.sec2.show-animate .animate{
-    transform: translateX(0);
+.menu3Data h1{
+    font-weight: bold;
 }
 
 .menu3Img img{
     width: 350px;
 }
+
+/* try animation for section3 */
+.sec1 .animate,
+.sec3 .animate,
+.sec5 .animate{
+    transform: translateX(-250%);
+}
+
+.sec1.show-animate .animate,
+.sec3.show-animate .animate,
+.sec5.show-animate .animate{
+    transform: translateX(0);
+}
+
+.sec2 .animate,
+.sec4 .animate{
+    transform: translateX(250%);
+}
+
+.sec2.show-animate .animate,
+.sec4.show-animate .animate{
+    transform: translateX(0);
+}
+
 
 
 /* how we work  */
@@ -625,6 +642,88 @@ section .animate{
 } */
 .hwwDataContainer:hover{
     transform: translateY(-2rem);
+}
+
+
+
+
+ /* why you should choose prestige    */
+.chooseUsContainer{
+    padding: 5rem;
+    padding-top: 3rem;
+    display: flex;
+}
+
+.chooseUsContainer1,
+.chooseUsContainer2,
+.chooseUsContainer3{
+    text-align: center;
+    align-items: center;
+    width: 47%;
+    border-radius: 25px;
+    padding: 2.5rem 5rem 2.5rem 5rem;
+}
+
+.chooseUsContainer1,
+.chooseUsContainer3{
+    background-color: var(--dark-blue);
+    color: var(--white-grey);
+}
+
+.chooseUsContainer1{    
+    position: absolute;
+    justify-content: left;
+}
+
+.chooseUsContainer2{
+    background-color: var(--yelow-light);
+    color: var(--dark-blue);
+    /* position  */
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 43%;
+}
+
+.chooseUsContainer3{
+    position: relative;
+    margin-top: 40%;
+    width: 54%;
+}
+
+.chooseUsContainer1 h5,
+.chooseUsContainer2 h5,
+.chooseUsContainer3 h5{
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+
+/* animation why you should choose prestige  */
+/* .chooseUsContainer .animate,
+.chooseUsContainer3 .animate{
+    transform: translateX(-250%);
+}
+
+.chooseUsContainer.show-animate .animate,
+.chooseUsContainer.show-animate .animate{
+    transform: translateX(0);
+}
+
+.chooseUsContainer2 .animate{
+    transform: translateX(250%);
+}
+
+.chooseUsContainer2.show-animate .animate{
+    transform: translateX(0);
+} */
+
+.chooseUsContainer1:hover,
+.chooseUsContainer3:hover{
+    transform: translate(-3.5rem, -3.5rem);
+}
+
+.chooseUsContainer2:hover{
+    transform: translate(3.5rem, -3.5rem);
 }
 
 
@@ -792,9 +891,17 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 1190px) {
+    .homeContainer{
+        background-size: cover;
+    }
    .misiData h1{
     padding-top: 2.5;
     padding-bottom: 0;
+   }
+
+   .visiData h1,
+   .misiData h1{
+    font-size: 35px;
    }
 
    .visiData p,
@@ -805,6 +912,18 @@ input[type=submit]:hover {
    .prestigeEquipment{
     padding: 3rem;
    }
+
+   
+   .chooseUsContainer2{
+        margin-top: 25%;
+        margin-left: 43%;
+    }
+
+    .chooseUsContainer3{
+        margin-top: 65%;
+        width: 58%;
+    }
+
 }
 
 
@@ -813,6 +932,9 @@ input[type=submit]:hover {
         padding: 5rem;
         padding-top: 7rem;
         padding-bottom: 7rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .homeImg img{
@@ -824,34 +946,25 @@ input[type=submit]:hover {
         padding: 0;
     }
 
-    .visiData h1,
-    .misiData h1{
-        font-size: 25px;
-    }
-
-    .visiData p,
-    .misiData ul li{
-        font-size: 13;
-    }
-
-   
-
     .menu3Container{
         padding: 2rem;
         gap: 5rem;
         justify-content: space-between;
     }
     
-    .homeData h1,
     .menu2Data h1,
     .menu3Data h1,
     .contactData h1,
-    .footerTitle{
+    .footerTitle, 
+    .visiData h1,
+    .misiData h1,
+    .chooseUsContainer1 h5,
+    .chooseUsContainer2 h5,
+    .chooseUsContainer3 h5{
         font-weight: bold;
         font-size: 22px;
     }
 
-    .homeData p,
     .menu2Data p,
     .menu3Data p,
     .contactData p,
@@ -860,11 +973,29 @@ input[type=submit]:hover {
     .btn,
     input[type=submit],
     .visiData p,
-    .misiList{
+    .misiList, 
+    .visiData p,
+    .misiData ul li,
+    .chooseUsContainer1 p,
+    .chooseUsContainer2 p,
+    .chooseUsContainer3 p{
         font-size: 12px;
     }
 
+    /* .chooseUsContainer1,
+    .chooseUsContainer2,
+    .chooseUsContainer3{
+        padding: 1.5rem 3rem 1.5rem 3rem;
+    } */
     
+    .chooseUsContainer2{
+        margin-left: 40%;
+    }
+
+    .chooseUsContainer3{
+        margin-top: 65%;
+    }
+
     input::placeholder ,
     .contactForm input{
         font-size: 10px;
@@ -904,6 +1035,16 @@ input[type=submit]:hover {
     .misiData{
         width: 70%;
     }
+
+    .chooseUsContainer2{
+        margin-top: 35%;
+    }
+
+    .chooseUsContainer3{
+        margin-top: 100%;
+        width: 58%;
+    }
+
 }
 
 @media screen and (max-width: 725px){    
@@ -913,11 +1054,7 @@ input[type=submit]:hover {
         padding-bottom: 3rem;
     }
 
-    .homeImg img{
-        height: 250px;
-    }
-
-    .visiData h1,
+    /* .visiData h1,
     .misiData h1{
         font-size: 20px;
     }
@@ -925,6 +1062,14 @@ input[type=submit]:hover {
     .visiData p,
     .misiData ul li{
         font-size: 10;
+    } */
+
+    .visiBG{
+        height: 200px;
+    }
+
+    .misiBG{
+        height: 350px;
     }
 
     .prestigeEquipmentContainer{
@@ -937,6 +1082,16 @@ input[type=submit]:hover {
 
     .aboutCompany{
         column-width:150px;
+    }
+
+    
+    .chooseUsContainer2{
+        margin-top: 55%;
+    }
+
+    .chooseUsContainer3{
+        margin-top: 150%;
+        width: 58%;
     }
 
     .footer{
@@ -966,15 +1121,6 @@ input[type=submit]:hover {
 
 
 @media screen and (max-width: 607px){
-    /* .homeContainer{
-        padding: 5rem;
-        padding-top: 7rem;
-    } */
-
-    .homeImg img{
-        height: 230px;
-    }
-
     .visimisiContainer{
         padding: 1.5rem;
     }
@@ -985,18 +1131,26 @@ input[type=submit]:hover {
         justify-content: space-between;
     }
     
-    .homeData h1,
+    /* .menu2Data h1{
+        font-size: 15px;
+    } */
+    /* .visiData h1,
+    .misiData h1{
+        padding-bottom: 0
+    } */
     .menu2Data h1,
     .menu3Data h1,
     .contactData h1,
     .footerTitle,
     .visiData h1,
-    .misiData h1{
+    .misiData h1,
+    .chooseUsContainer1 h5,
+    .chooseUsContainer2 h5,
+    .chooseUsContainer3 h5{
         font-weight: bold;
         font-size: 15px;
     }
 
-    .homeData p,
     .menu2Data p,
     .menu3Data p,
     .contactData p,
@@ -1007,10 +1161,13 @@ input[type=submit]:hover {
     input::placeholder,
     .contactForm input,
     .visiContainer p,
-    .misiData ul li{
-        font-size: 9px;
+    .misiData ul li,
+    .chooseUsContainer1 p,
+    .chooseUsContainer2 p,
+    .chooseUsContainer3 p{
+        font-size: 10px;
     }
-
+    
     .footer{
         padding-top: 3rem;
     }
@@ -1022,6 +1179,47 @@ input[type=submit]:hover {
     .menu3Img img{
         width: 120px;
     }   
+    
+    .chooseUsContainer{
+        padding: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .chooseUsContainer1,
+    .chooseUsContainer2,
+    .chooseUsContainer3{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        margin-left: 0;
+        margin-top: 0;
+        padding: 1.5rem;
+        position: static;
+    }
+
+    /* .chooseUsContainer2{
+        margin-top: 230px;
+
+    }
+    .chooseUsContainer3{
+        margin-top: 480px;
+        width: 450px;
+        height: 200px; 
+    } */
+
+    /* .chooseUsContainer2{
+        margin-top: 35%;
+    }
+
+    .chooseUsContainer3{
+        margin-top: 100%;
+        width: 58%;
+    } */
 
     input[type=text], select {
         padding: 3px 5px;
@@ -1030,7 +1228,7 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 500px) {
     .homeImg img{
-        height: 180px;
+        height: 250px;
     }
 
     .visimisiContainer{
@@ -1042,32 +1240,6 @@ input[type=submit]:hover {
         width: 80%;
     }
 
-    .homeData h1,
-    .menu2Data h1,
-    .menu3Data h1,
-    .contactData h1,
-    .footerTitle,
-    .visiData h1,
-    .misiData h1{
-        font-weight: bold;
-        font-size: 13px;
-    }
-
-    .homeData p,
-    .menu2Data p,
-    .menu3Data p,
-    .contactData p,
-    .footerList,
-    .footerCopyright,
-    .btn,
-    input[type=submit],
-    input::placeholder,
-    .contactForm input,
-    .visiData p,
-    .misiData ul li{
-        font-size: 7px;
-    }
-
     .footerSocialLink{
         font-size: 9px;
     }
@@ -1075,6 +1247,15 @@ input[type=submit]:hover {
     .menu3Img img{
         width: 100px;
     }  
+
+    .howWeWork {
+        padding: 1rem;
+    }
+    .hwwContent {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        
+    }
+
     .input[type=text], select {
         padding: 1px 3px;
     } 

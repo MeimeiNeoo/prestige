@@ -8,7 +8,7 @@
 @section('menuContainer')
     {{-- home section  --}}
     <section class="home section" id="home">
-        <div class="container-fluid homeContainer mx-auto row">
+        <div class="container-fluid homeContainer mx-auto">
                 <section class="mx-auto homeData col show-animate">
                     <h1 class="animate">Lorem, ipsum dolor.</h1>
                     <hr class="underlineStyle animate">
@@ -38,7 +38,7 @@
     <section class="menu2 section" id="menu2">
         <div class="container-fluid menu2Container">
             <section class="menu2Img show-animate">
-                <img class="img-fluid animate" src="assets\menu2BG.png" alt="Responsive image" >
+                <img class="img-fluid animate" src="assets\menu2BG2.png" alt="Responsive image" >
             </section>
             <section class="text-center bg-text mx-auto menu2Data show-animate">
                 <h1 class="contentTitle animate">Lorem ipsum dolor sit amet.</h1>
@@ -214,7 +214,7 @@
                     <img src="assets\Asset17@300x.png" alt="" >
                 </div>
             </section>
-            <section class="sec2 grid col show-animate">
+            <section class="sec4 grid col show-animate">
                 <div class="menu3Img animate">
                     <img src="assets\TiktokVideo.png" alt="" >
                 </div>
@@ -226,7 +226,7 @@
                     <button class="btn">Lorem ipsum</button>
                 </div>                
             </section>
-            <section class="sec3 grid col show-animate">
+            <section class="sec5 grid col show-animate">
                 <div class="menu3Data animate" >
                     <h1>DRONE PORTOFOLIO</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
@@ -286,6 +286,52 @@
                         dignissimos! Nisi quam iure cumque ad et in perferendis.</p>
                 </div>
             </section>
+        </div>
+    </section>
+
+
+    {{-- why you should choose prestige  --}}
+    <section class="chooseUs" id="chooseUs">
+        <h1 class="contentTitle">WHY YOU SHOULD CHOOSE PRESTIGE</h1>
+        <div class="chooseUsContainer grid">
+            <div class="chooseUsContainer1">
+                <h5 >5 YEARS OF EXPERIENCE AND EXPERTISE</h5>
+                <p>We have extensive experience in this industry
+                    and a team of dedicated experts. We have
+                    successfully worked with various companies and
+                    brands, helping them enhance their online
+                    presence, strengthen their brand image, and
+                    achieve their desired marketing goals. Our deep
+                    expertise in branding and social media
+                    management allows us to deliver high-quality
+                    services and satisfying results.</p>
+            </div>
+            <div class="chooseUsContainer2">
+                <h5>WE WORK WITH MANY INFLUENCERS AND MEDIA PARTNERS</h5>
+                <p>We have established strong partnerships with
+                    various influencers and media partners as
+                    specialists in social media and branding.
+                    Through these collaborations, we are able to
+                    make a significant impact on our clients' brands.
+                    We work with top influencers who hold
+                    significant influence in their respective
+                    industries. Our collaborations with them help to
+                    enhance the visibility of our clients' brands on
+                    social media platforms and reach a wider
+                    audience.</p>
+            </div>
+            <div class="chooseUsContainer3">
+                <h5>CREATIVITY AND INNOVATION</h5>
+                <p>We highly value creativity and innovation in every aspect of
+                    our work. We constantly seek new ways to differentiate our
+                    clients’ brands in a crowded market. From captivating
+                    graphic designs to unique and engaging content, we
+                    prioritize creativity to create compelling experiences for the
+                    audience. We stay updated with the latest trends and
+                    innovate to ensure that our clients’ brands remain fresh,
+                    relevant, and connected with their target audience.
+                    CREATIVITY AND INNOVATION</p>
+            </div>
         </div>
     </section>
 
