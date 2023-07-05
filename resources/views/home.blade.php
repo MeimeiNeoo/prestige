@@ -63,14 +63,14 @@
     <section class="visimisi section" id="visimisi">
         <div class="visimisiContainer"> 
             <section class="visiContainer show-animate">
-                <img src="assets\visi.png" class="img-fluid visiBG animate" alt="Responsive image">
+                <img src="assets\visiBG.png" class="img-fluid visiBG animate" alt="Responsive image">
                 <div class="visiData col animate">
                     <h1 class="animate">VISION</h1>
                     <p class="animate">to become the unrivaled branding consultancy and social mediaspecialist, with an excellent reputation both nationally and internationally.</p>
                 </div>
             </section>
             <section class="misiContainer show-animate">
-                <img src="assets\misi.png" class="img-fluid misiBG animate" alt="Responsive Img">
+                <img src="assets\misiBG.png" class="img-fluid misiBG animate" alt="Responsive Img">
                 <div class="misiData col animate">
                     <h1 class="animate">MISION</h1>
                     <ul class="animate">
