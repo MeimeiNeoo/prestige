@@ -65,11 +65,21 @@
                 <div class="misiData col animate">
                     <h1 class="animate">MISION</h1>
                     <ul class="animate">
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis minima quaerat deleniti? Dicta a alias aliquid, sit aut vitae temporibus inventore fugiat eligendi laboriosam ex earum ullam, numquam illum!</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim provident perspiciatis deserunt. Veniam, dolore?</li>
+                        <li> <span>To assist SMEs and Business owners extensively</span>
+                            <p>Our goal is to aid numerous SMEs and business owners in building and managing theirenterprises through digital and print platforms.</p>
+                        </li>
+                        <li> <span>Deliver Outstanding Results</span>
+                            <p>We are dedicated to delivering exceptional results for our clients, going above and beyond toexceed their expectations.</p>
+                        </li>
+                        <li> <span>Foster Innovation and Creativity</span>
+                            <p>We embrace innovation and creativity in our approaches, constantly exploring new strategiesand ideas to elevate our clients' brands in the ever-evolving digital landscape.</p>
+                        </li>
+                        <li> <span>Embrace Global Reach</span>
+                            <p>We aspire to extend our expertise and services beyond national boundaries, becomingrecognized as a leading player in the global market.</p>
+                        </li>
+                        <li> <span>Cultivate a Talented Team</span>
+                            <p>We prioritize attracting and retaining top talent in the industry. Our team consists of skilledprofessionals who are passionate about their work.</p>
+                        </li>
                     </ul>
                 </div>
             </section>
