@@ -10,11 +10,16 @@
     <section class="home section" id="home">
         <div class="container-fluid homeContainer mx-auto">
                 <section class="mx-auto homeData col show-animate">
-                    <h1 class="animate">Lorem, ipsum dolor.</h1>
+                    <h1 class="animate">Since 2018</h1>
                     <hr class="underlineStyle animate">
-                    <p class="animate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
-                        praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
-                        accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
+                    <p class="animate">Five years ago, in 2018, two talented and skilled young entrepreneurs 
+                        started a photobooth and photo product business called Joyphotography. Despite facing 
+                        numerous obstacles and challenges, in 2019 they recognized the potential in the 
+                        digital and creative industry. In May 2019, they embarked on a new venture and 
+                        established Prestige, specializing in photography, videography, design, and more. 
+                        The name "Prestige" itself signifies status and reputation. With every service offered 
+                        by Prestige, they aspire to compete and achieve a high level of prestige accompanied 
+                        by the best quality in their respective fields</p>
                 </section>
                 <section class="homeImg col show-animate">
                     <img src="assets\homeImage.png" alt="" class="img animate">
@@ -41,10 +46,14 @@
                 <img class="img-fluid animate" src="assets\menu2BG2.png" alt="Responsive image" >
             </section>
             <section class="text-center bg-text mx-auto menu2Data show-animate">
-                <h1 class="contentTitle animate">Lorem ipsum dolor sit amet.</h1>
-                <p class="animate">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem perspiciatis consequuntur 
-                    assumenda facilis id eos iusto voluptas eaque! Nam cumque, hic similique voluptates, nisi, iste 
-                    corporis minima quasi tenetur ad unde esse illum? At, qui.</p>    
+                <h1 class="contentTitle animate">ABOUT PRESTIGE</h1>
+                <p class="animate">They began by managing the social media accounts of their closest business 
+                    partners, starting with three accounts and as time goes by, Prestige has expanded its 
+                    collaborations and now provides its services to dozens of national and international business 
+                    brands. Prestige has dozens talented of employees, not only that Prestige also managing 
+                    professional photography (Commercial Product Photo, etc) and videography (Reels, Commercial 
+                    video like advertisement) Prestige also provided professional design that fitting with the 
+                    client’s brand.</p>    
             </section>
         </div>
     </section>
@@ -353,8 +362,7 @@
                     prioritize creativity to create compelling experiences for the
                     audience. We stay updated with the latest trends and
                     innovate to ensure that our clients’ brands remain fresh,
-                    relevant, and connected with their target audience.
-                    CREATIVITY AND INNOVATION</p>
+                    relevant, and connected with their target audience.</p>
             </div>
         </div>
     </section>
@@ -433,7 +441,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section> --}} 
     {{-- ini bagian timpa --}}
     <section class="contact Section" id="contact">
         <div class="contactContainer">    
