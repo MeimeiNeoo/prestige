@@ -125,11 +125,11 @@
 
     {{-- prestige equipment  --}}
     <section class="prestigeEquipment show-animate" id="prestigeEquipment">
-        <h1 class="contentTitle">PRESTTIGE EQUIPMENT</h1>
+        <h1 class="contentTitle">PRESTIGE EQUIPMENT</h1>
         <div class="prestigeEquipmentContainer grid animate">
             <section class="prestigeEquipmentList1">
                 <img src="assets\prestigeEquipment1-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
-                <div class="prestigeEquipmentData" style="color: var(--white-grey)">
+                <div class="prestigeEquipmentData1" style="color: var(--white-grey)">
                     <h5>CAMERA</h5>
                     <p>Sony A7 Mark III</p>
                     <p>Sony A7 Mark IV</p>
@@ -148,7 +148,7 @@
             </section>
             <section class="prestigeEquipmentList3">
                 <img src="assets\prestigeEquipment3-cropped.png" class="prestigeEquipmentImg" alt="Responsive image">
-                <div class="prestigeEquipmentData" style="color: var(--white-grey)">
+                <div class="prestigeEquipmentData3" style="color: var(--white-grey)">
                     <h5>PC/LAPTOP</h5>
                     <p>Macbook Pro M2</p>
                     <p>Macbook Pro 2017</p>
