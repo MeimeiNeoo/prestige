@@ -191,9 +191,12 @@
             <section class="sec1 grid col show-animate">
                 <div class= "menu3Data animate">
                     <h1 class="">Branding Solution</h1>
-                    <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
-                        praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
-                        accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
+                    <p class="">We provide comprehensive branding services to help your company build 
+                        a strong brand image and stand out in a competitive market. With a strategic and 
+                        creative approach, we design a brand identity that reflects the values, vision, 
+                        and personality of your company. From creating an appealing logo to selecting 
+                        consistent color palettes, typography, and visual styles, we ensure that every 
+                        brand element creates a positive and memorable impression on customers.</p>
                     <button class="btn">Lorem ipsum</button>
                     </div>
                 <div class="menu3Img animate">
@@ -206,18 +209,25 @@
                 </div>
                 <div class="menu3Data animate">
                     <h1>SOCIAL MEDIA MANAGEMENT</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
-                        praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
-                        accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
+                    <p>We provide professional and effective social media management services to help 
+                        your company optimize its online presence. With our expert team, we will design 
+                        and implement the right social media strategies to enhance visibility, 
+                        engagement, and business growth. We meticulously manage various social media 
+                        platforms, creating compelling and relevant content while actively engaging with 
+                        your audience.</p>
                     <button class="btn">Lorem ipsum</button>
                 </div>                
             </section>
             <section class="sec3 grid col show-animate">
                 <div class="menu3Data animate" >
                     <h1>PHOTOGRAPHY PORTOFOLIO</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
-                        praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
-                        accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
+                    <p>With dedication and creativity, we have captured precious moments in various fields, 
+                        ranging from individual portraits, weddings, travels, to commercial activities. 
+                        Each photo we present tells a unique story and captures priceless beauty and emotions. 
+                        We are committed to delivering stunning results with perfect lighting, skilled 
+                        composition, and sharp details. Through our portfolio, you can witness our diverse 
+                        expertise and styles, and entrust us to create impressive and unforgettable images 
+                        for your company.</p>
                     <button class="btn">Lorem ipsum</button>    
                 </div>
                 <div class="menu3Img animate">
@@ -230,18 +240,24 @@
                 </div>
                 <div class="menu3Data animate">
                     <h1>DESIGN GRAPHIN PORTOFOLIO</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
-                        praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
-                        accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
+                    <p>We have produced a diverse range of design projects, from iconic logo designs, 
+                        attentiongrabbing brochures, captivating magazine layouts, to visually striking 
+                        designs for social media. Each of our works is crafted with meticulous attention to 
+                        detail, a strong aesthetic sense, and a deep understanding of brand and communication 
+                        objectives. We skillfully combine typography, colors, and other visual elements to 
+                        create designs that are both stunning and effective in conveying messages</p>
                     <button class="btn">Lorem ipsum</button>
                 </div>                
             </section>
             <section class="sec5 grid col show-animate">
                 <div class="menu3Data animate" >
                     <h1>DRONE PORTOFOLIO</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eius autem quos 
-                        praesentium modi excepturi et, nihil doloremque laboriosam voluptate vero nostrum 
-                        accusamus quam minima quae numquam! Dignissimos, doloremque perspiciatis!</p>
+                    <p>Our Drone Portfolio page showcases our ability to capture breathtaking aerial views, 
+                        photograph hard-to-reach locations, and produce stunning imagery from high altitudes. 
+                        From aerial photography for architectural projects, documenting sports activities, to 
+                        capturing moments at special events, we bring a fresh and awe-inspiring perspective. 
+                        With skilled piloting and high-quality photography capabilities, we create captivating 
+                        photos and videos with unique angles and compositions</p>
                     <button class="btn">Lorem ipsum</button>    
                 </div>
                 <div class="menu3Img animate">
@@ -260,40 +276,38 @@
                 <div class="hwwDataContainer animate">
                     <span class="circle"></span>
                     <h5>In-Depth Analysis and Strategy</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum et a quidem omnis 
-                        voluptatum ullam cupiditate distinctio dolorem, aliquid quis facere rem, sit voluptatibus! 
-                        Nostrum nobis repellendus veritatis, atque asperiores laborum maxime! Cupiditate fugiat 
-                        commodi cumque aut, consectetur iusto ducimus nihil vel dignissimos eaque. Eos maiores 
-                        voluptas sit et?</p>
+                    <p>As a social media management and branding service provider, we conduct thorough analysis of 
+                        our clients’ companies, target audiences, and competitors to identify opportunities and 
+                        challenges. Based on this analysis, we formulate appropriate strategies to enhance brand 
+                        visibility, audience engagement, and business growth.</p>
                 </div>
                 <div class="hwwDataContainer animate">
                     <span class="circle"></span>
                     <h5>Creativity in Design and Content</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum et a quidem omnis 
-                        voluptatum ullam cupiditate distinctio dolorem, aliquid quis facere rem, sit voluptatibus! 
-                        Nostrum nobis repellendus veritatis, atque asperiores laborum maxime! Cupiditate fugiat 
-                        commodi cumque aut, consectetur iusto ducimus nihil vel dignissimos eaque. Eos maiores 
-                        voluptas sit et?</p>
+                    <p>Our team consists of creative and skilled designers who specialize in creating visually 
+                        appealing designs and relevant content. We pay attention to elements such as images, text, 
+                        colors, and graphics to produce content that grabs attention and reinforces our clients’ 
+                        brand messages. Our creativity in design and content helps our clients stand out and 
+                        capture attention in a competitive market.</p>
                 </div>
                 <div class="hwwDataContainer animate">
                     <span class="circle"></span>
                     <h5>Active Social Media Management</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum et a quidem omnis 
-                        voluptatum ullam cupiditate distinctio dolorem, aliquid quis facere rem, sit voluptatibus! 
-                        Nostrum nobis repellendus veritatis, atque asperiores laborum maxime! Cupiditate fugiat 
-                        commodi cumque aut, consectetur iusto ducimus nihil vel dignissimos eaque. Eos maiores 
-                        voluptas sit et?</p>
+                    <p>We meticulously manage various social media platforms. We develop and execute wellplanned 
+                        content strategies, promptly respond to comments and messages from the audience, and 
+                        monitor trends and changes in social media algorithms. Through active social media 
+                        management, we assist our clients in building strong customer relationships, increasing 
+                        interaction, and effectively expanding their online presence.?</p>
                 </div>
                 <div class="hwwDataContainer animate">
                     <span class="circle"></span>
                     <h5>Collaboration and Communication with Clients</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium illum, odit nulla 
-                        suscipit rem nam id magni maxime veritatis, voluptas libero ex autem eum. Quae facere 
-                        veritatis minima deleniti necessitatibus? Magni molestias rem unde voluptates error 
-                        nostrum ducimus esse beatae corporis, aperiam ipsam at, asperiores harum possimus 
-                        recusandae est ratione laborum quidem iusto, numquam aliquid nam magnam vero. Reiciendis, 
-                        quas! Praesentium quos repellat id sunt at explicabo molestias obcaecati autem dolores 
-                        dignissimos! Nisi quam iure cumque ad et in perferendis.</p>
+                    <p>We prioritize close collaboration with our clients. We listen to their needs and visions, 
+                        and involve them in the decision-making process. Transparent and open communication 
+                        ensures that clients stay engaged and informed about the progress of their campaigns. 
+                        Through effective collaboration and communication, we deliver customized branding and 
+                        social media management solutions that align with our clients’ needs and help them achieve 
+                        their desired marketing goals.</p>
                 </div>
             </section>
         </div>
