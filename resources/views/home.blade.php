@@ -104,28 +104,32 @@
                 <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
                 <div class="prestigeTeamListData grid">
                     <h5>PHOTOGRAPHER</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
+                    <p>Our photographers are individuals who pursue the profession or hobby of capturing images or photographs 
+                        using a camera. At Prestige, they work in a structured and professional manner.</p>
                 </div>
             </div>
             <div class="prestigeTeamList animate">
                 <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
                 <div class="prestigeTeamListData grid">
                     <h5>VIDEOGRAPHER</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
+                    <p>Our videographer is an individual who pursues the profession or hobby of creating and producing videos 
+                        using a camera. At Prestige, they work in a structured and professional manner.</p>
                 </div>
             </div>
             <div class="prestigeTeamList animate">
                 <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
                 <div class="prestigeTeamListData grid">
                     <h5>GRAPHIC DESIGNER</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
+                    <p>Our graphic designer is a professional who creates visual designs using elements such as images, text, 
+                        colors, and other graphics.</p>
                 </div>
             </div>
             <div class="prestigeTeamList animate">
                 <img src="assets\prestigeTeam.png" class="prestigeTeamImg" alt="">
                 <div class="prestigeTeamListData grid">
                     <h5>CONTENT CREATOR</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur ad recusandae voluptatem quod odio incidunt quam deserunt, beatae ut.</p>
+                    <p>Our content creator is an individual who creates and produces original content for various platforms, 
+                        such as social media and others.</p>
                 </div>
             </div>
         </section>
