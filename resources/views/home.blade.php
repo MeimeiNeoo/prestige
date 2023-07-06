@@ -72,7 +72,7 @@
             <section class="misiContainer show-animate">
                 <img src="assets\misiBG.png" class="img-fluid misiBG animate" alt="Responsive Img">
                 <div class="misiData col animate">
-                    <h1 class="animate">MISION</h1>
+                    <h1 class="animate">MISSION</h1>
                     <ul class="animate">
                         <li> <span>To assist SMEs and Business owners extensively</span>
                             <p>Our goal is to aid numerous SMEs and business owners in building and managing theirenterprises through digital and print platforms.</p>
@@ -372,58 +372,6 @@
     </section>
 
 
-    
-    {{-- why you should choose prestige  --}}
-    <section class="collab" id="collab">    
-        <div class="brand">
-            <h1 class="contentTitle">BRAND WE WORK WITH</h1>   
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                  <li class="page-item disabled">
-                    <a class="page-link" href="#" tabindex="-1">Previous</a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
-                  </li>
-                </ul>
-            </nav>
-        </div>  
-        <div class="influencer">
-            <h1 class="contentTitle">INFLUENCER WE COLLAB WITH</h1>    
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                  <li class="page-item disabled">
-                    <a class="page-link" href="#" tabindex="-1">Previous</a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
-                  </li>
-                </ul>
-            </nav> 
-        </div>  
-        <div class="mediaPartner">
-            <h1 class="contentTitle">MEDIA PARTNER</h1> 
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                  <li class="page-item disabled">
-                    <a class="page-link" href="#" tabindex="-1">Previous</a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
-                  </li>
-                </ul>
-            </nav>
-        </div>
-    </section>
 
     {{-- Contact section  --}}
     {{-- ini bagian background --}}

@@ -282,7 +282,7 @@ section .animate{
 } */
 
 .visimisiContainer{
-    padding: 15rem;
+    padding: 13rem;
     align-items: center;
 }
 
@@ -369,8 +369,8 @@ section .animate{
 
 .prestigeTeamContent{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     column-gap: 0;
     row-gap: 0;
 }
@@ -759,7 +759,6 @@ section .animate{
 }
 
 
-
 /* contact */
 /* contact bagian bg  */
 /* .contact{
@@ -920,6 +919,11 @@ input[type=submit]:hover {
     .homeContainer{
         background-size: cover;
     }
+    
+    /* .visimisiContainer{
+        padding: 0;
+        margin: 0;
+    } */
 }
 
 @media screen and (max-width: 1191px) {
@@ -935,21 +939,21 @@ input[type=submit]:hover {
    .visimisiContainer{
        padding: 5rem;
    }
+
    .visiData h1,
    .misiData h1{
-    font-size: 25px;
+    font-size: 22px;
    }
-
    .visiData p,
    .misiData ul li{
-    font-size: 11px;
+    font-size: 12px;
    }
 
     .visiData,
     .misiData{
-        width: 78%;
+        width: 80%;
     }
-
+    
     .visiData{
         padding-left: 1.5rem;
     }
@@ -1016,12 +1020,8 @@ input[type=submit]:hover {
     }
 
     .visimisiContainer{
-        padding: 0;
-    }
-
-    .visiData h1,
-    .misiData h1{
-        font-size: 22px;
+        padding: 2rem;
+        padding-bottom: 3rem;
     }
 
     .misiData ul li{
@@ -1030,14 +1030,25 @@ input[type=submit]:hover {
 
     .visiData,
     .misiData{
-        width: 90%;
+        width: 85%;
     }
 
     .misiBG{
         transform: scale(-1, 1.3);
-        padding-top: 3.5rem;
+        padding-top: 3rem;
+    }
+    .misiData{
+        padding-top: 2rem;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
+    .misiData h1{
+        margin-top: 2rem;
+    }
     .prestigeEquipment{
         padding-left: 2rem;
         padding-right: 2rem;
@@ -1092,14 +1103,7 @@ input[type=submit]:hover {
     .prestigeEquipmentData3 p,
     .prestigeEquipmentData p{
         font-size: 12px;
-    }
-
-    /* .chooseUsContainer1,
-    .chooseUsContainer2,
-    .chooseUsContainer3{
-        padding: 1.5rem 3rem 1.5rem 3rem;
-    } */
-    
+    }    
     
     .chooseUsContainer{
         padding: 1.5rem;
@@ -1307,4 +1311,205 @@ input[type=submit]:hover {
     .input[type=text], select {
         padding: 1px 3px;
     } 
+}
+
+@media screen and (min-width: 1445px) {
+    .homeContainer{
+        padding: 10rem;
+    }
+    .homeImg{
+        text-align: center;
+    }
+    .visimisiContainer{
+        padding: 0;
+    }
+    .visimisi{
+        padding: 0rem 7rem 0rem 7rem;
+    }
+
+    .visiData,
+    .misiData ul{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .visiData h1,
+    .misiData h1{
+        font-size: 40px;
+    }
+    
+    .visiData p,
+    .misiData ul li{
+        font-size: 18px;
+        width: 100%;
+    }
+    .visiData,
+    .misiData{
+        width: 78%;
+    }
+    
+    .howWeWork {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .hwwContent{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .chooseUsContainer{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .chooseUsContainer1,
+    .chooseUsContainer2,
+    .chooseUsContainer3{
+        width: 35%;
+        border-radius: 25px;
+    }
+        
+    .chooseUsContainer1{   
+        margin-left: 7rem;
+    }
+
+    .chooseUsContainer2{
+        margin-left: 37rem;
+        margin-top: 15%;
+    }
+
+    .chooseUsContainer3{
+        margin-left: 7rem;
+        margin-top: 42%;
+        width: 45%;
+    }
+}
+
+
+@media screen and (min-width: 1475px ){
+    /* .visimisi{
+        padding: 0rem 10rem 0rem 10rem;
+    } */
+    /* .visimisiContainer{
+            padding: 5rem;
+    } */
+    
+    .visiData,
+    .misiData{
+        width: 75%;
+    }
+
+    
+    .prestigeTeam {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+
+@media screen and (min-width: 1590px ){
+    /* .visimisi{
+        padding: 0rem 10rem 0rem 10rem;
+    } */
+    .visimisiContainer{
+            padding: 5rem;
+    }
+    
+    .visiData,
+    .misiData{
+        width: 65%;
+    }
+    .prestigeTeam {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+    
+    .howWeWork {
+        padding-left: 15rem;
+        padding-right:15rem;
+    }
+    .hwwContent{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    
+    .chooseUsContainer1,
+    .chooseUsContainer2,
+    .chooseUsContainer3{
+        width: 35%;
+        padding: 1.5rem 7rem 1.5rem 7rem;
+    }
+        
+    .chooseUsContainer1{   
+        margin-left: 7rem;
+    }
+
+    .chooseUsContainer2{
+        margin-left: 40rem;
+        margin-top: 12%;
+    }
+
+    .chooseUsContainer3{
+        margin-left: 7rem;
+        margin-top: 40%;
+        width: 45%;
+    }
+}
+
+
+@media screen and (min-width: 1640px ){
+    .visimisiContainer{
+            padding: 10rem;
+    }
+    
+    .visiData,
+    .misiData{
+        width: 65%;
+    }
+    .prestigeTeam {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .chooseUsContainer1,
+    .chooseUsContainer3{   
+        margin-left: 10rem;
+    }
+
+    .chooseUsContainer2{
+        margin-left: 45rem;
+        margin-top: 10%;
+    }
+
+    .chooseUsContainer3{
+        margin-top: 30%;
+        width: 45%;
+    }
+}
+
+
+
+@media screen and (min-width: 1930px ){
+    .visimisiContainer{
+            padding: 13rem;
+    }
+    
+    .visiData,
+    .misiData{
+        width: 60%;
+    }
+    
+    .prestigeTeam {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+    .howWeWork {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+    .hwwContent{
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
 }
