@@ -1557,23 +1557,32 @@ input[type=submit]:hover {
     .collab{
         padding: 5rem;
     }
-    .Logo{
+    .logoContainer,
+    .influencerContainer,
+    .mediaPartnerContainer
+    {
         flex-direction: row;
         display: flex;
         align-items: center;
     }
-    .horizontalScroll{        
-        /* width: 80%;
+
+    .horizontalScroll,
+    .horizontalScroll2,
+    .horizontalScroll3{        
+        /* width: 100%;
         height: auto; */
         display: flex;
         justify-content: center;
         align-items: center;
         white-space: nowrap;
-        overflow: scroll;
+        overflow: auto;
         scroll-behavior: smooth;
+        gap: 1%;
     }
     
-    .horizontalScroll img{
+    .horizontalScroll img,
+    .horizontalScroll2 img,
+    .horizontalScroll3 img{
         width: 8%;
         border-radius: 25px;
     }
@@ -1581,5 +1590,17 @@ input[type=submit]:hover {
     .iconArrow{ 
         font-size: 50px;
         display: flex;
+        color: var(--dark-blue);
+    }
+
+    .LeftArrow,
+    .rightArrow{
+        border: none;
+    }
+    
+    .horizontalScroll::-webkit-scrollbar,    
+    .horizontalScroll2::-webkit-scrollbar,
+    .horizontalScroll3::-webkit-scrollbar{
+        width: 0;
     }
 }
