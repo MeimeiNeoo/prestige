@@ -759,6 +759,8 @@ section .animate{
 }
 
 
+/* collaboration prestige  */
+  
 /* contact */
 /* contact bagian bg  */
 /* .contact{
@@ -1385,6 +1387,43 @@ input[type=submit]:hover {
         margin-top: 42%;
         width: 45%;
     }
+    
+
+
+    /* Collaboration  */
+    /* .horizontalScroll{        
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        overflow: auto;
+        position: relative;
+        scroll-behavior: smooth;
+    } */
+    
+    /* .horizontalScroll img{
+        width: 8%;
+        border-radius: 25px;
+        display: inline-block;
+    } */
+
+/* .horizontalScroll{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1%;
+    max-height: 120px;
+} */
+/* .horizontalScroll::-webkit-scrollbar{
+    width: 0;
+} */
+
+/* div.horizontalScroll {
+    overflow-x : auto;
+    white-space: nowrap;
+  } */
+
 }
 
 
@@ -1511,5 +1550,36 @@ input[type=submit]:hover {
     }
     .hwwContent{
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .collab{
+        padding: 5rem;
+    }
+    .Logo{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
+    .horizontalScroll{        
+        /* width: 80%;
+        height: auto; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        overflow: scroll;
+        scroll-behavior: smooth;
+    }
+    
+    .horizontalScroll img{
+        width: 8%;
+        border-radius: 25px;
+    }
+
+    .iconArrow{ 
+        font-size: 50px;
+        display: flex;
     }
 }
