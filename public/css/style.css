@@ -510,13 +510,13 @@ section .animate{
 }
 
 .prestigeOfficeContainer .arrowMapDown{
-    margin-left: -22.5%;
-    margin-top: -7%;
+    margin-left: -20%;
+    margin-top: -5%;
 }
 
 .prestigeOfficeContainer .arrowMapUp{
     margin-left: 20%;
-    margin-top: 0%;
+    margin-top: 1%;
 }
 
 .prestigeOfficeContainer .officeBTM,
@@ -526,13 +526,13 @@ section .animate{
 }
 
 .prestigeOfficeContainer .officeBTM{
-    margin-left: 38%;
-    margin-top: -22%;
+    margin-left: 40%;
+    margin-top: -20%;
 }
 
 .prestigeOfficeContainer .officeSG{
     margin-left: -45%;
-    margin-top: 19%;
+    margin-top: 20%;
 }
 
 /* hover picture */
@@ -1554,6 +1554,28 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 2000px) {
+    .prestigeOfficeContainer .arrowMapDown{
+        margin-left: -22%;
+        margin-top: -5.7%;
+    }
+
+    .prestigeOfficeContainer .arrowMapUp{
+        margin-left: 22%;
+        margin-top: 1%;
+    }
+
+    .prestigeOfficeContainer .officeBTM{
+        margin-left: 40%;
+        margin-top: -20%;
+    }
+
+    .prestigeOfficeContainer .officeSG{
+        margin-left: -45%;
+        margin-top: 20%;
+    }
+
+
+    /* collab  */
     .collab{
         padding: 5rem;
     }

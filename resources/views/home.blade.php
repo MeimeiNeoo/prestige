@@ -213,12 +213,12 @@
                     <button class="btn">Lorem ipsum</button>
                     </div>
                 <div class="menu3Img animate">
-                    <img src="assets\InstagramPost3D.png" alt="" >
+                    <img src="assets\BrandSolution.png" alt="" >
                 </div>
             </section>
             <section class="sec2 grid col show-animate">
                 <div class="menu3Img animate">
-                    <img src="assets\TiktokVideo.png" alt="" >
+                    <img src="assets\MediaManagement.png" alt="" >
                 </div>
                 <div class="menu3Data animate">
                     <h1>SOCIAL MEDIA MANAGEMENT</h1>
@@ -244,15 +244,15 @@
                     <button class="btn">Lorem ipsum</button>    
                 </div>
                 <div class="menu3Img animate">
-                    <img src="assets\Asset17@300x.png" alt="" >
+                    <img src="assets\Fotografi.png" alt="" >
                 </div>
             </section>
             <section class="sec4 grid col show-animate">
                 <div class="menu3Img animate">
-                    <img src="assets\TiktokVideo.png" alt="" >
+                    <img src="assets\DesignGrafis.png" alt="" >
                 </div>
                 <div class="menu3Data animate">
-                    <h1>DESIGN GRAPHIN PORTOFOLIO</h1>
+                    <h1>DESIGN GRAPHIC PORTOFOLIO</h1>
                     <p>We have produced a diverse range of design projects, from iconic logo designs, 
                         attentiongrabbing brochures, captivating magazine layouts, to visually striking 
                         designs for social media. Each of our works is crafted with meticulous attention to 
