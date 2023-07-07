@@ -1316,6 +1316,26 @@ input[type=submit]:hover {
 }
 
 @media screen and (min-width: 1445px) {
+    .prestigeOfficeContainer .arrowMapDown{
+        margin-left: -22%;
+        margin-top: -5.7%;
+    }
+
+    .prestigeOfficeContainer .arrowMapUp{
+        margin-left: 22%;
+        margin-top: 1%;
+    }
+
+    .prestigeOfficeContainer .officeBTM{
+        margin-left: 40%;
+        margin-top: -20%;
+    }
+
+    .prestigeOfficeContainer .officeSG{
+        margin-left: -45%;
+        margin-top: 20%;
+    }
+
     .homeContainer{
         padding: 10rem;
     }
@@ -1387,54 +1407,10 @@ input[type=submit]:hover {
         margin-top: 42%;
         width: 45%;
     }
-    
-
-
-    /* Collaboration  */
-    /* .horizontalScroll{        
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        overflow: auto;
-        position: relative;
-        scroll-behavior: smooth;
-    } */
-    
-    /* .horizontalScroll img{
-        width: 8%;
-        border-radius: 25px;
-        display: inline-block;
-    } */
-
-/* .horizontalScroll{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 1%;
-    max-height: 120px;
-} */
-/* .horizontalScroll::-webkit-scrollbar{
-    width: 0;
-} */
-
-/* div.horizontalScroll {
-    overflow-x : auto;
-    white-space: nowrap;
-  } */
-
 }
 
 
-@media screen and (min-width: 1475px ){
-    /* .visimisi{
-        padding: 0rem 10rem 0rem 10rem;
-    } */
-    /* .visimisiContainer{
-            padding: 5rem;
-    } */
-    
+@media screen and (min-width: 1475px ){    
     .visiData,
     .misiData{
         width: 75%;
@@ -1449,9 +1425,6 @@ input[type=submit]:hover {
 
 
 @media screen and (min-width: 1590px ){
-    /* .visimisi{
-        padding: 0rem 10rem 0rem 10rem;
-    } */
     .visimisiContainer{
             padding: 5rem;
     }
@@ -1554,27 +1527,6 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 2000px) {
-    .prestigeOfficeContainer .arrowMapDown{
-        margin-left: -22%;
-        margin-top: -5.7%;
-    }
-
-    .prestigeOfficeContainer .arrowMapUp{
-        margin-left: 22%;
-        margin-top: 1%;
-    }
-
-    .prestigeOfficeContainer .officeBTM{
-        margin-left: 40%;
-        margin-top: -20%;
-    }
-
-    .prestigeOfficeContainer .officeSG{
-        margin-left: -45%;
-        margin-top: 20%;
-    }
-
-
     /* collab  */
     .collab{
         padding: 5rem;
